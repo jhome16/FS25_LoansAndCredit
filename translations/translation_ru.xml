@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Кредиты И Кредитный Рейтинг: открыть/закрыть меню"/>
+        <text name="lc_title" text="Кредиты И Кредитный Рейтинг"/>
+        <text name="lc_balance" text="Счёт: %s"/>
+        <text name="lc_tabOverview" text="Обзор"/>
+        <text name="lc_tabLoans" text="Мои кредиты"/>
+        <text name="lc_tabNew" text="Новый кредит"/>
+        <text name="lc_tabSettings" text="Настройки"/>
+        <text name="lc_tabAppearance" text="Внешний вид"/>
+        <text name="lc_appStyle" text="Стиль меню"/>
+        <text name="lc_appAccent" text="Акцентный цвет"/>
+        <text name="lc_appAuto" text="Авто"/>
+        <text name="lc_appBright" text="Яркость"/>
+        <text name="lc_appReset" text="Сбросить вид"/>
+        <text name="lc_appNote" text="Внешний вид сохраняется на этом компьютере и влияет только на твоё меню."/>
+        <text name="lc_th1" text="Лес"/>
+        <text name="lc_th2" text="Полночный синий"/>
+        <text name="lc_th3" text="Золото урожая"/>
+        <text name="lc_th4" text="Амбарный красный"/>
+        <text name="lc_th5" text="Сланец"/>
+        <text name="lc_th6" text="Графит и оранжевый"/>
+        <text name="lc_th7" text="Закат"/>
+        <text name="lc_th8" text="Лаванда"/>
+        <text name="lc_th9" text="Бирюза"/>
+        <text name="lc_th10" text="Песок пустыни"/>
+        <text name="lc_th11" text="Арктика"/>
+        <text name="lc_th12" text="Высокий контраст"/>
+        <text name="lc_th13" text="Стиль игры"/>
+        <text name="lc_noFarm" text="Вступи в ферму, чтобы пользоваться кредитами."/>
+        <text name="lc_help" text="Ctrl+B / Esc: закрыть   Tab или 1-5: вкладки   Вверх/Вниз: выбор   Влево/Вправо: изменить (Shift x10)   Enter: подписать"/>
+        <text name="lc_help2" text="Ctrl+S: сохранить   Ctrl+Q: главное меню   Ctrl+X: выход на рабочий стол (нажми дважды)"/>
+        <text name="lc_btnSave" text="Сохранить"/>
+        <text name="lc_btnQuitMenu" text="Главное меню"/>
+        <text name="lc_btnQuitDesktop" text="Рабочий стол"/>
+        <text name="lc_btnConfirm" text="Ещё раз для выхода"/>
+        <text name="lc_nSaved" text="Игра сохранена."/>
+        <text name="input_LC_SAVE_GAME" text="Меню Кредиты И Кредитный Рейтинг: сохранить игру"/>
+        <text name="input_LC_QUIT_MENU" text="Меню Кредиты И Кредитный Рейтинг: выйти в главное меню"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Меню Кредиты И Кредитный Рейтинг: выйти на рабочий стол"/>
+        <text name="lc_creditScore" text="Кредитный рейтинг"/>
+        <text name="lc_r_poor" text="Плохой"/>
+        <text name="lc_r_fair" text="Средний"/>
+        <text name="lc_r_good" text="Хороший"/>
+        <text name="lc_r_veryGood" text="Очень хороший"/>
+        <text name="lc_r_excellent" text="Отличный"/>
+        <text name="lc_rateTerm" text="Ставка срочного кредита"/>
+        <text name="lc_rateEquip" text="Ставка кредита на технику"/>
+        <text name="lc_rateLand" text="Ставка ипотеки"/>
+        <text name="lc_unsecured" text="Необеспеченный: занято / лимит"/>
+        <text name="lc_totalDebt" text="Общий долг"/>
+        <text name="lc_monthlyTotal" text="Платежи в месяц"/>
+        <text name="lc_overdue" text="Просрочено"/>
+        <text name="lc_statusOk" text="Ты можешь брать новые кредиты."/>
+        <text name="lc_statusBlocked" text="Новые кредиты заблокированы ещё на %d мес."/>
+        <text name="lc_baseNote" text="Кредит базовой игры отключён. Старый можно погасить в разделе Финансы."/>
+        <text name="lc_history" text="Кредитная история"/>
+        <text name="lc_noHistory" text="Пока ничего."/>
+        <text name="lc_monthShort" text="М%d"/>
+        <text name="lc_h1" text="Взято %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h2" text="Ежемесячные платежи: %AMOUNT%"/>
+        <text name="lc_h3" text="Пропущен платёж %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h4" text="Дефолт, списано %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h5" text="Погашен кредит %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h6" text="Изъято: %LABEL%, зачислено %AMOUNT%"/>
+        <text name="lc_h7" text="Конфисковано: %LABEL%, зачислено %AMOUNT%"/>
+        <text name="lc_h8" text="Залога больше нет, теперь без обеспечения (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Досрочный платёж %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Оплачена просрочка %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Старый кредит базовой игры %AMOUNT% перенесён сюда"/>
+        <text name="lc_nRolled" text="Твой кредит базовой игры (%AMOUNT%) перенесён в Кредиты И Кредитный Рейтинг. Выбери срок в окне или во вкладке Мои кредиты."/>
+        <text name="lc_nTermSet" text="Срок установлен. Твой ежемесячный платёж теперь %AMOUNT%."/>
+        <text name="lc_h14" text="Срок перенесённого кредита: %LABEL%, %AMOUNT% в месяц"/>
+        <text name="lc_chooseTerm" text="Выбрать срок"/>
+        <text name="lc_popTitle" text="Кредит базовой игры перенесён"/>
+        <text name="lc_popAmount" text="Перенесённая сумма"/>
+        <text name="lc_popBody" text="Кредиты И Кредитный Рейтинг погасили твой кредит базовой игры. Теперь ты должен ту же сумму здесь в виде срочного кредита. Деньги на счёт не зачислялись и не списывались. Выбери, за какой срок хочешь его вернуть."/>
+        <text name="lc_popTerm" text="Погашать за"/>
+        <text name="lc_popConfirm" text="Подтвердить срок"/>
+        <text name="lc_popLater" text="Решить позже"/>
+        <text name="lc_popLaterNote" text="Решить позже: пока остаётся %s. До подтверждения срок можно изменить во вкладке Мои кредиты."/>
+        <text name="lc_baseLoanLabel" text="Старый кредит базовой игры"/>
+        <text name="lc_s_rollBaseLoan" text="Переносить кредиты базовой игры в этот мод"/>
+        <text name="lc_s_rollMonths" text="Срок перенесённого кредита базовой игры"/>
+        <text name="lc_noLoans" text="У тебя нет активных кредитов."/>
+        <text name="lc_colType" text="Тип"/>
+        <text name="lc_colCollateral" text="Залог"/>
+        <text name="lc_colBalance" text="Остаток"/>
+        <text name="lc_colRate" text="Ставка"/>
+        <text name="lc_colMonthly" text="В месяц"/>
+        <text name="lc_colLeft" text="Осталось"/>
+        <text name="lc_colStatus" text="Статус"/>
+        <text name="lc_stOk" text="Вовремя"/>
+        <text name="lc_stOverdue" text="Просрочка %d/%d"/>
+        <text name="lc_unsecuredShort" text="Без обеспечения"/>
+        <text name="lc_principal" text="Взято в долг"/>
+        <text name="lc_interestOwed" text="Долг по процентам и сборам"/>
+        <text name="lc_missedTotal" text="Пропущенные платежи"/>
+        <text name="lc_payoffFee" text="Комиссия за досрочное погашение"/>
+        <text name="lc_payOverdue" text="Оплатить просрочку %s"/>
+        <text name="lc_payExtra" text="Оплатить %s"/>
+        <text name="lc_payOff" text="Погасить %s"/>
+        <text name="lc_typeTerm" text="Срочный кредит"/>
+        <text name="lc_typeEquip" text="Кредит на технику"/>
+        <text name="lc_typeLand" text="Ипотека"/>
+        <text name="lc_desc1" text="Без обеспечения. Самая высокая ставка, лимит зависит от кредитного рейтинга."/>
+        <text name="lc_desc2" text="Под залог твоей техники. При дефолте её могут изъять."/>
+        <text name="lc_desc3" text="Под залог твоей земли. Самая низкая ставка, самые долгие сроки."/>
+        <text name="lc_noCollateral" text="Залог не нужен"/>
+        <text name="lc_termInfo" text="Твой лимит растёт вместе с кредитным рейтингом. Плати вовремя, чтобы повысить его."/>
+        <text name="lc_pickVehicle" text="Выбери технику в залог"/>
+        <text name="lc_pickLand" text="Выбери землю в залог"/>
+        <text name="lc_noVehicles" text="У тебя нет техники, которую можно отдать в залог."/>
+        <text name="lc_noLand" text="У тебя нет земли."/>
+        <text name="lc_pledged" text="В залоге"/>
+        <text name="lc_amount" text="Сумма"/>
+        <text name="lc_max" text="Макс"/>
+        <text name="lc_maxAmount" text="До %s"/>
+        <text name="lc_term" text="Срок"/>
+        <text name="lc_rate" text="Процентная ставка (годовая)"/>
+        <text name="lc_monthlyPayment" text="Ежемесячный платёж"/>
+        <text name="lc_totalInterest" text="Всего процентов"/>
+        <text name="lc_totalRepaid" text="Всего к возврату"/>
+        <text name="lc_sign" text="Подписать кредит"/>
+        <text name="lc_grpPenalties" text="Пропущенные платежи (по пресетам)"/>
+        <text name="lc_grpLending" text="Кредитование"/>
+        <text name="lc_on" text="Вкл."/>
+        <text name="lc_off" text="Выкл."/>
+        <text name="lc_monthsN" text="%d мес."/>
+        <text name="lc_years" text="%d г."/>
+        <text name="lc_preset" text="Штрафы: %s"/>
+        <text name="lc_p_lenient" text="Мягкие"/>
+        <text name="lc_p_normal" text="Обычные"/>
+        <text name="lc_p_strict" text="Строгие"/>
+        <text name="lc_p_custom" text="Свои"/>
+        <text name="lc_reset" text="Сбросить настройки"/>
+        <text name="lc_resetConfirm" text="Нажми ещё раз для подтверждения"/>
+        <text name="lc_hostOnly" text="Эти настройки может менять только хост."/>
+        <text name="lc_s_lateFeePct" text="Пеня за просрочку (% пропущенного платежа)"/>
+        <text name="lc_s_missHit" text="Потеря рейтинга за пропущенный платёж"/>
+        <text name="lc_s_missesToDefault" text="Пропусков подряд до дефолта"/>
+        <text name="lc_s_defaultHit" text="Потеря рейтинга при дефолте"/>
+        <text name="lc_s_blockMonths" text="Запрет новых кредитов после дефолта на"/>
+        <text name="lc_s_recoveryPct" text="Зачисляемая стоимость изъятого залога"/>
+        <text name="lc_s_repossess" text="Изымать залог при дефолте"/>
+        <text name="lc_s_aprTerm" text="Базовая ставка: срочные кредиты"/>
+        <text name="lc_s_aprEquip" text="Базовая ставка: кредиты на технику"/>
+        <text name="lc_s_aprLand" text="Базовая ставка: ипотека"/>
+        <text name="lc_s_scoreSpread" text="Изменение ставки на каждые 50 пунктов от 700"/>
+        <text name="lc_s_termLimit" text="Лимит без обеспечения при рейтинге 700"/>
+        <text name="lc_s_ltvEquip" text="Макс. кредит от стоимости техники"/>
+        <text name="lc_s_ltvLand" text="Макс. кредит от стоимости земли"/>
+        <text name="lc_s_minScore" text="Минимальный рейтинг для кредита"/>
+        <text name="lc_s_startScore" text="Начальный рейтинг новых ферм"/>
+        <text name="lc_s_onTimeGain" text="Рост рейтинга за платёж вовремя"/>
+        <text name="lc_s_paidOffGain" text="Рост рейтинга за погашенный кредит"/>
+        <text name="lc_s_convertApr" text="Надбавка к ставке при продаже залога"/>
+        <text name="lc_s_prepayFeePct" text="Комиссия за досрочное погашение"/>
+        <text name="lc_s_maxLoans" text="Макс. активных кредитов на ферму"/>
+        <text name="lc_s_blockBaseLoan" text="Отключить кредит базовой игры"/>
+        <text name="lc_farmlandName" text="Участок %d"/>
+        <text name="lc_formerly" text="был %s"/>
+        <text name="lc_nTaken" text="Кредит одобрен: %AMOUNT% зачислено на твой счёт."/>
+        <text name="lc_nPayments" text="Списаны платежи по кредитам: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Пропущен платёж по кредиту %AMOUNT%! До дефолта осталось: %LABEL%."/>
+        <text name="lc_nDefault" text="Дефолт по кредиту (%LABEL%). Со счёта списано %AMOUNT%."/>
+        <text name="lc_nPaidOff" text="Кредит погашен (%LABEL%). Твой кредитный рейтинг вырос."/>
+        <text name="lc_nRepo" text="Банк изъял %LABEL% и зачислил %AMOUNT%."/>
+        <text name="lc_nSeize" text="Банк конфисковал %LABEL% и зачислил %AMOUNT%."/>
+        <text name="lc_nConverted" text="Залога %LABEL% больше нет. Кредит теперь без обеспечения и с более высокой ставкой."/>
+        <text name="lc_nBaseBlocked" text="Кредит базовой игры отключён. Используй Кредиты И Кредитный Рейтинг (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Внесён досрочный платёж %AMOUNT%."/>
+        <text name="lc_nOverdue" text="Просрочка %AMOUNT% оплачена."/>
+        <text name="lc_eScore" text="Твой кредитный рейтинг слишком низкий для кредита."/>
+        <text name="lc_eBlocked" text="После недавнего дефолта брать кредиты нельзя."/>
+        <text name="lc_eLimit" text="Эта сумма превышает твой лимит."/>
+        <text name="lc_eCollateral" text="Выбери залог, который тебе принадлежит."/>
+        <text name="lc_ePledged" text="Этот залог уже используется."/>
+        <text name="lc_eMoney" text="Недостаточно денег на счёте."/>
+        <text name="lc_eMaxLoans" text="У тебя максимальное число кредитов."/>
+        <text name="lc_eInvalid" text="Не удалось обработать запрос."/>
+        <text name="lc_eHost" text="Настройки может менять только хост."/>
+    </texts>
+</l10n>

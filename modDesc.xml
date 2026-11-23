@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="116">
+    <author>jhome</author>
+    <version>1.0.5.0</version>
+    <title>
+        <en>Loans And Credit</en>
+        <de>Kredite Und Bonität</de>
+        <fr>Prêts Et Crédit</fr>
+        <es>Préstamos Y Crédito</es>
+        <it>Prestiti E Credito</it>
+        <pl>Kredyty I Zdolność Kredytowa</pl>
+        <cz>Úvěry A Bonita</cz>
+        <ru>Кредиты И Кредитный Рейтинг</ru>
+        <br>Empréstimos E Crédito</br>
+        <nl>Leningen En Krediet</nl>
+        <tr>Krediler Ve Kredi Notu</tr>
+    </title>
+    <description>
+        <en><![CDATA[Replaces the flat base-game loan with real loans and a credit score.
+
+Loan types:
+- Term loan: unsecured, highest rate, limit set by your credit score.
+- Equipment loan: secured by a vehicle you own, lower rate.
+- Mortgage: secured by farmland you own, lowest rate and longest terms.
+
+An existing base-game loan in your savegame is moved into the mod as a term loan, and a popup lets you choose how long to repay it.
+
+Payments are collected automatically every month. Your credit score (300-850) sets your interest rate and rises with on-time payments. Missed payments add late fees and lower your score; too many in a row and the loan defaults, the bank can seize the collateral, and you can't borrow for a while.
+
+Settings tab: Lenient, Normal and Strict penalty presets, plus every rate, limit and penalty value. Only the host can change them in multiplayer.
+
+Appearance tab: 13 color themes (the same as Markets And Futures), accent color and brightness, saved per player.
+
+Save game, Quit to Main Menu and Quit to Desktop buttons in the menu header (Ctrl+S, Ctrl+Q, Ctrl+X while the menu is open).
+
+Open the menu with Ctrl+B (change it in Controls).]]></en>
+        <de><![CDATA[Ersetzt den einfachen Kredit des Grundspiels durch echte Kredite und eine Bonität.
+
+Kreditarten:
+- Ratenkredit: ungesichert, höchster Zins, Limit hängt von deiner Bonität ab.
+- Maschinenkredit: gesichert durch ein eigenes Fahrzeug, niedrigerer Zins.
+- Hypothek: gesichert durch eigenes Land, niedrigster Zins und längste Laufzeiten.
+
+Ein bestehender Grundspiel-Kredit im Spielstand wird als Ratenkredit in die Mod übernommen, und ein Fenster lässt dich die Laufzeit wählen.
+
+Raten werden jeden Monat automatisch eingezogen. Deine Bonität (300-850) bestimmt deinen Zins und steigt mit pünktlichen Zahlungen. Verpasste Raten kosten Mahngebühren und Bonität; zu viele in Folge und der Kredit fällt aus, die Bank kann die Sicherheit beschlagnahmen und du kannst eine Weile nichts leihen.
+
+Reiter Einstellungen: Strafen-Vorgaben Nachsichtig, Normal und Streng sowie alle Zinsen, Limits und Strafen. Im Mehrspieler kann nur der Host sie ändern.
+
+Reiter Aussehen: 13 Farbthemen (dieselben wie in Markets And Futures), Akzentfarbe und Helligkeit, pro Spieler gespeichert.
+
+Schaltflächen Speichern, Hauptmenü und Desktop in der Menükopfzeile (Strg+S, Strg+Q, Strg+X bei offenem Menü).
+
+Öffne das Menü mit Strg+B (änderbar unter Steuerung).]]></de>
+        <fr><![CDATA[Remplace le prêt simple du jeu de base par de vrais prêts et un score de crédit.
+
+Types de prêts :
+- Prêt à terme : non garanti, taux le plus élevé, limite selon ton score de crédit.
+- Prêt matériel : garanti par un véhicule t'appartenant, taux plus bas.
+- Hypothèque : garantie par un terrain t'appartenant, taux le plus bas et durées les plus longues.
+
+Un prêt du jeu de base déjà présent dans ta sauvegarde est transféré dans le mod sous forme de prêt à terme, et une fenêtre te permet de choisir sa durée.
+
+Les mensualités sont prélevées automatiquement chaque mois. Ton score de crédit (300-850) fixe ton taux et augmente avec les paiements à temps. Les échéances manquées ajoutent des frais et baissent ton score ; trop d'affilée et le prêt tombe en défaut, la banque peut saisir la garantie et tu ne peux plus emprunter pendant un moment.
+
+Onglet Paramètres : préréglages de pénalités Indulgent, Normal et Strict, plus chaque taux, limite et pénalité. En multijoueur, seul l'hôte peut les modifier.
+
+Onglet Apparence : 13 thèmes de couleur (les mêmes que Markets And Futures), couleur d'accent et luminosité, enregistrés par joueur.
+
+Boutons Sauvegarder, Menu principal et Bureau dans l'en-tête du menu (Ctrl+S, Ctrl+Q, Ctrl+X quand le menu est ouvert).
+
+Ouvre le menu avec Ctrl+B (modifiable dans Commandes).]]></fr>
+        <es><![CDATA[Sustituye el préstamo simple del juego base por préstamos reales y una puntuación de crédito.
+
+Tipos de préstamo:
+- Préstamo a plazo: sin garantía, interés más alto, límite según tu puntuación de crédito.
+- Préstamo de equipo: garantizado con un vehículo tuyo, interés más bajo.
+- Hipoteca: garantizada con terreno tuyo, el interés más bajo y los plazos más largos.
+
+Un préstamo del juego base que ya tengas en tu partida se traslada al mod como préstamo a plazo, y una ventana te deja elegir el plazo de devolución.
+
+Los pagos se cobran automáticamente cada mes. Tu puntuación de crédito (300-850) fija tu interés y sube con los pagos puntuales. Los pagos no realizados añaden recargos y bajan tu puntuación; demasiados seguidos y el préstamo entra en impago, el banco puede incautar la garantía y no podrás pedir prestado durante un tiempo.
+
+Pestaña Ajustes: preajustes de penalización Indulgente, Normal y Estricto, además de cada interés, límite y penalización. En multijugador solo el anfitrión puede cambiarlos.
+
+Pestaña Apariencia: 13 temas de color (los mismos que Markets And Futures), color de acento y brillo, guardados por jugador.
+
+Botones Guardar, Menú principal y Escritorio en la cabecera del menú (Ctrl+S, Ctrl+Q, Ctrl+X con el menú abierto).
+
+Abre el menú con Ctrl+B (se puede cambiar en Controles).]]></es>
+        <it><![CDATA[Sostituisce il prestito semplice del gioco base con prestiti veri e un punteggio di credito.
+
+Tipi di prestito:
+- Prestito a termine: non garantito, tasso più alto, limite in base al punteggio di credito.
+- Prestito mezzi: garantito da un veicolo tuo, tasso più basso.
+- Mutuo: garantito da un terreno tuo, tasso più basso e durate più lunghe.
+
+Un prestito del gioco base già presente nel salvataggio viene spostato nella mod come prestito a termine, e una finestra ti fa scegliere la durata del rimborso.
+
+Le rate vengono riscosse automaticamente ogni mese. Il tuo punteggio di credito (300-850) determina il tasso e sale con i pagamenti puntuali. Le rate non pagate aggiungono more e abbassano il punteggio; troppe di fila e il prestito diventa insolvente, la banca può sequestrare la garanzia e per un po' non potrai chiedere prestiti.
+
+Scheda Impostazioni: preset di penalità Indulgente, Normale e Severo, più ogni tasso, limite e penalità. In multigiocatore solo l'host può cambiarli.
+
+Scheda Aspetto: 13 temi di colore (gli stessi di Markets And Futures), colore d'accento e luminosità, salvati per giocatore.
+
+Pulsanti Salva, Menu principale e Desktop nell'intestazione del menu (Ctrl+S, Ctrl+Q, Ctrl+X a menu aperto).
+
+Apri il menu con Ctrl+B (modificabile in Comandi).]]></it>
+        <pl><![CDATA[Zastępuje prosty kredyt z gry podstawowej prawdziwymi kredytami i oceną kredytową.
+
+Rodzaje kredytów:
+- Kredyt ratalny: niezabezpieczony, najwyższe oprocentowanie, limit zależy od oceny kredytowej.
+- Kredyt na sprzęt: zabezpieczony twoim pojazdem, niższe oprocentowanie.
+- Hipoteka: zabezpieczona twoją ziemią, najniższe oprocentowanie i najdłuższe okresy.
+
+Istniejący kredyt z gry podstawowej w zapisie gry zostaje przeniesiony do moda jako kredyt ratalny, a okno pozwala wybrać okres spłaty.
+
+Raty są pobierane automatycznie co miesiąc. Twoja ocena kredytowa (300-850) ustala oprocentowanie i rośnie przy terminowych spłatach. Niezapłacone raty dodają opłaty za zwłokę i obniżają ocenę; zbyt wiele z rzędu i kredyt staje się niespłacony, bank może przejąć zabezpieczenie, a ty przez jakiś czas nie pożyczysz.
+
+Karta Ustawienia: ustawienia kar Łagodne, Normalne i Surowe oraz każde oprocentowanie, limit i kara. W trybie wieloosobowym zmienia je tylko gospodarz.
+
+Karta Wygląd: 13 motywów kolorystycznych (tych samych co w Markets And Futures), kolor akcentu i jasność, zapisywane dla każdego gracza.
+
+Przyciski Zapisz, Menu główne i Pulpit w nagłówku menu (Ctrl+S, Ctrl+Q, Ctrl+X przy otwartym menu).
+
+Otwórz menu klawiszami Ctrl+B (można zmienić w Sterowaniu).]]></pl>
+        <cz><![CDATA[Nahrazuje jednoduchý úvěr ze základní hry skutečnými úvěry a úvěrovým skóre.
+
+Druhy úvěrů:
+- Splátkový úvěr: nezajištěný, nejvyšší úrok, limit podle úvěrového skóre.
+- Úvěr na stroje: zajištěný tvým vozidlem, nižší úrok.
+- Hypotéka: zajištěná tvou půdou, nejnižší úrok a nejdelší doby.
+
+Stávající úvěr ze základní hry v uložené pozici se přesune do modu jako splátkový úvěr a okno ti nechá zvolit dobu splácení.
+
+Splátky se strhávají automaticky každý měsíc. Tvoje úvěrové skóre (300-850) určuje úrok a roste se splátkami včas. Zmeškané splátky přidávají poplatky a snižují skóre; příliš mnoho za sebou a úvěr přejde do nesplácení, banka může zabavit zajištění a nějakou dobu si nepůjčíš.
+
+Karta Nastavení: předvolby sankcí Mírné, Normální a Přísné a také každá sazba, limit a sankce. V multiplayeru je může měnit jen hostitel.
+
+Karta Vzhled: 13 barevných motivů (stejných jako v Markets And Futures), barva zvýraznění a jas, uložené pro každého hráče.
+
+Tlačítka Uložit, Hlavní menu a Plocha v záhlaví menu (Ctrl+S, Ctrl+Q, Ctrl+X při otevřeném menu).
+
+Menu otevřeš klávesami Ctrl+B (lze změnit v Ovládání).]]></cz>
+        <ru><![CDATA[Заменяет простой кредит базовой игры настоящими кредитами и кредитным рейтингом.
+
+Виды кредитов:
+- Срочный кредит: без обеспечения, самая высокая ставка, лимит зависит от кредитного рейтинга.
+- Кредит на технику: под залог твоей техники, ставка ниже.
+- Ипотека: под залог твоей земли, самая низкая ставка и самые долгие сроки.
+
+Уже взятый в сохранении кредит базовой игры переносится в мод как срочный кредит, а в окне можно выбрать срок погашения.
+
+Платежи списываются автоматически каждый месяц. Кредитный рейтинг (300-850) определяет ставку и растёт при своевременных платежах. Пропущенные платежи добавляют пени и снижают рейтинг; слишком много подряд, и наступает дефолт: банк может изъять залог, и какое-то время ты не сможешь брать кредиты.
+
+Вкладка Настройки: пресеты штрафов Мягкие, Обычные и Строгие, а также все ставки, лимиты и штрафы. В мультиплеере их может менять только хост.
+
+Вкладка Внешний вид: 13 цветовых тем (те же, что в Markets And Futures), акцентный цвет и яркость, сохраняются для каждого игрока.
+
+Кнопки Сохранить, Главное меню и Рабочий стол в заголовке меню (Ctrl+S, Ctrl+Q, Ctrl+X при открытом меню).
+
+Меню открывается клавишами Ctrl+B (можно изменить в Управлении).]]></ru>
+        <br><![CDATA[Substitui o empréstimo simples do jogo base por empréstimos de verdade e uma pontuação de crédito.
+
+Tipos de empréstimo:
+- Empréstimo a prazo: sem garantia, juros mais altos, limite pela sua pontuação de crédito.
+- Empréstimo de máquinas: garantido por um veículo seu, juros menores.
+- Hipoteca: garantida por terra sua, os menores juros e os prazos mais longos.
+
+Um empréstimo do jogo base que já exista no seu save é transferido para o mod como empréstimo a prazo, e uma janela deixa você escolher o prazo de pagamento.
+
+As parcelas são cobradas automaticamente todo mês. Sua pontuação de crédito (300-850) define seus juros e sobe com pagamentos em dia. Parcelas não pagas geram multas e baixam a pontuação; muitas seguidas e o empréstimo fica inadimplente, o banco pode tomar a garantia e você não poderá pegar emprestado por um tempo.
+
+Aba Configurações: predefinições de penalidade Leniente, Normal e Rigoroso, além de cada taxa, limite e penalidade. No multijogador só o anfitrião pode mudá-las.
+
+Aba Aparência: 13 temas de cor (os mesmos de Markets And Futures), cor de destaque e brilho, salvos por jogador.
+
+Botões Salvar, Menu principal e Área de trabalho no cabeçalho do menu (Ctrl+S, Ctrl+Q, Ctrl+X com o menu aberto).
+
+Abra o menu com Ctrl+B (dá para mudar em Controles).]]></br>
+        <nl><![CDATA[Vervangt de simpele lening van het basisspel door echte leningen en een kredietscore.
+
+Soorten leningen:
+- Aflossingslening: ongedekt, hoogste rente, limiet volgens je kredietscore.
+- Machinelening: gedekt door een eigen voertuig, lagere rente.
+- Hypotheek: gedekt door eigen grond, laagste rente en langste looptijden.
+
+Een bestaande lening van het basisspel in je savegame wordt als aflossingslening naar de mod verplaatst, en in een venster kies je de looptijd.
+
+Termijnen worden elke maand automatisch geïnd. Je kredietscore (300-850) bepaalt je rente en stijgt met tijdige betalingen. Gemiste termijnen kosten boetes en score; te veel op rij en de lening gaat in wanbetaling, de bank kan het onderpand in beslag nemen en je kunt een tijdje niet lenen.
+
+Tabblad Instellingen: boete-voorinstellingen Mild, Normaal en Streng, plus elke rente, limiet en boete. In multiplayer kan alleen de host ze wijzigen.
+
+Tabblad Uiterlijk: 13 kleurthema's (dezelfde als in Markets And Futures), accentkleur en helderheid, per speler opgeslagen.
+
+Knoppen Opslaan, Hoofdmenu en Bureaublad in de kop van het menu (Ctrl+S, Ctrl+Q, Ctrl+X als het menu open is).
+
+Open het menu met Ctrl+B (aan te passen bij Besturing).]]></nl>
+        <tr><![CDATA[Temel oyunun basit kredisini gerçek kredilerle ve bir kredi notuyla değiştirir.
+
+Kredi türleri:
+- Vadeli kredi: teminatsız, en yüksek faiz, limit kredi notuna göre belirlenir.
+- Ekipman kredisi: sahip olduğun bir araçla teminatlı, daha düşük faiz.
+- İpotek: sahip olduğun arazi ile teminatlı, en düşük faiz ve en uzun vadeler.
+
+Kayıtlı oyununda zaten olan bir temel oyun kredisi moda vadeli kredi olarak taşınır ve bir pencerede geri ödeme süresini seçersin.
+
+Ödemeler her ay otomatik olarak tahsil edilir. Kredi notun (300-850) faizini belirler ve zamanında ödemelerle yükselir. Kaçırılan ödemeler gecikme ücreti ekler ve notunu düşürür; art arda çok fazla kaçırırsan kredi temerrüde düşer, banka teminata el koyabilir ve bir süre borç alamazsın.
+
+Ayarlar sekmesi: Hoşgörülü, Normal ve Sıkı ceza ön ayarları ile tüm faiz, limit ve ceza değerleri. Çok oyunculu modda yalnızca sunucu sahibi değiştirebilir.
+
+Görünüm sekmesi: 13 renk teması (Markets And Futures ile aynı), vurgu rengi ve parlaklık, oyuncu başına kaydedilir.
+
+Menü başlığında Kaydet, Ana Menü ve Masaüstü düğmeleri (menü açıkken Ctrl+S, Ctrl+Q, Ctrl+X).
+
+Menüyü Ctrl+B ile aç (Kontroller bölümünden değiştirilebilir).]]></tr>
+    </description>
+    <iconFilename>icon_LoansAndCredit.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/LoansAndCredit.lua"/>
+        <sourceFile filename="scripts/LoansAndCreditEvents.lua"/>
+        <sourceFile filename="scripts/LoansAndCreditTheme.lua"/>
+        <sourceFile filename="scripts/LoansAndCreditMenu.lua"/>
+    </extraSourceFiles>
+
+    <actions>
+        <action name="LC_OPEN_MENU" category="ONFOOT VEHICLE"/>
+        <action name="LC_SAVE_GAME" category="ONFOOT VEHICLE"/>
+        <action name="LC_QUIT_MENU" category="ONFOOT VEHICLE"/>
+        <action name="LC_QUIT_DESKTOP" category="ONFOOT VEHICLE"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="LC_OPEN_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_b"/>
+        </actionBinding>
+        <actionBinding action="LC_SAVE_GAME">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_s"/>
+        </actionBinding>
+        <actionBinding action="LC_QUIT_MENU">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_q"/>
+        </actionBinding>
+        <actionBinding action="LC_QUIT_DESKTOP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_x"/>
+        </actionBinding>
+    </inputBinding>
+
+    <l10n filenamePrefix="translations/translation"/>
+</modDesc>

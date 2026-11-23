@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Úvěry A Bonita: otevřít/zavřít menu"/>
+        <text name="lc_title" text="Úvěry A Bonita"/>
+        <text name="lc_balance" text="Účet: %s"/>
+        <text name="lc_tabOverview" text="Přehled"/>
+        <text name="lc_tabLoans" text="Moje úvěry"/>
+        <text name="lc_tabNew" text="Nový úvěr"/>
+        <text name="lc_tabSettings" text="Nastavení"/>
+        <text name="lc_tabAppearance" text="Vzhled"/>
+        <text name="lc_appStyle" text="Styl menu"/>
+        <text name="lc_appAccent" text="Barva zvýraznění"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Jas"/>
+        <text name="lc_appReset" text="Obnovit vzhled"/>
+        <text name="lc_appNote" text="Vzhled se ukládá na tomto počítači a týká se jen tvého menu."/>
+        <text name="lc_th1" text="Les"/>
+        <text name="lc_th2" text="Půlnoční modř"/>
+        <text name="lc_th3" text="Zlato žní"/>
+        <text name="lc_th4" text="Stodolová červeň"/>
+        <text name="lc_th5" text="Břidlice"/>
+        <text name="lc_th6" text="Antracit a oranžová"/>
+        <text name="lc_th7" text="Západ slunce"/>
+        <text name="lc_th8" text="Levandule"/>
+        <text name="lc_th9" text="Modrozelená"/>
+        <text name="lc_th10" text="Pouštní písek"/>
+        <text name="lc_th11" text="Arktida"/>
+        <text name="lc_th12" text="Vysoký kontrast"/>
+        <text name="lc_th13" text="Styl hry"/>
+        <text name="lc_noFarm" text="Připoj se k farmě, abys mohl používat úvěry."/>
+        <text name="lc_help" text="Ctrl+B / Esc: zavřít   Tab nebo 1-5: karty   Nahoru/Dolů: vybrat   Vlevo/Vpravo: upravit (Shift x10)   Enter: podepsat"/>
+        <text name="lc_help2" text="Ctrl+S: uložit hru   Ctrl+Q: hlavní menu   Ctrl+X: ukončit na plochu (stiskni dvakrát)"/>
+        <text name="lc_btnSave" text="Uložit"/>
+        <text name="lc_btnQuitMenu" text="Hlavní menu"/>
+        <text name="lc_btnQuitDesktop" text="Plocha"/>
+        <text name="lc_btnConfirm" text="Znovu pro ukončení"/>
+        <text name="lc_nSaved" text="Hra uložena."/>
+        <text name="input_LC_SAVE_GAME" text="Menu Úvěry A Bonita: uložit hru"/>
+        <text name="input_LC_QUIT_MENU" text="Menu Úvěry A Bonita: ukončit do hlavního menu"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Menu Úvěry A Bonita: ukončit na plochu"/>
+        <text name="lc_creditScore" text="Úvěrové skóre"/>
+        <text name="lc_r_poor" text="Špatné"/>
+        <text name="lc_r_fair" text="Průměrné"/>
+        <text name="lc_r_good" text="Dobré"/>
+        <text name="lc_r_veryGood" text="Velmi dobré"/>
+        <text name="lc_r_excellent" text="Výborné"/>
+        <text name="lc_rateTerm" text="Úrok splátkového úvěru"/>
+        <text name="lc_rateEquip" text="Úrok úvěru na stroje"/>
+        <text name="lc_rateLand" text="Úrok hypotéky"/>
+        <text name="lc_unsecured" text="Nezajištěné čerpáno / limit"/>
+        <text name="lc_totalDebt" text="Celkový dluh"/>
+        <text name="lc_monthlyTotal" text="Splátky za měsíc"/>
+        <text name="lc_overdue" text="Po splatnosti"/>
+        <text name="lc_statusOk" text="Můžeš si brát nové úvěry."/>
+        <text name="lc_statusBlocked" text="Nové úvěry zablokovány ještě %d měs."/>
+        <text name="lc_baseNote" text="Úvěr ze základní hry je vypnutý. Starý můžeš stále splatit ve Financích."/>
+        <text name="lc_history" text="Úvěrová historie"/>
+        <text name="lc_noHistory" text="Zatím nic."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="Půjčeno %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h2" text="Měsíční splátky: %AMOUNT%"/>
+        <text name="lc_h3" text="Zmeškaná splátka %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h4" text="Nesplácení, strženo %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h5" text="Splacen úvěr %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h6" text="Zabaveno %LABEL%, připsáno %AMOUNT%"/>
+        <text name="lc_h7" text="Zabrán %LABEL%, připsáno %AMOUNT%"/>
+        <text name="lc_h8" text="Zajištění pryč, nyní nezajištěný (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Mimořádná splátka %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Zaplaceno po splatnosti %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Starý úvěr ze základní hry %AMOUNT% přesunut sem"/>
+        <text name="lc_nRolled" text="Tvůj úvěr ze základní hry (%AMOUNT%) byl převeden do Úvěry A Bonita. Zvol dobu splácení v okně nebo v Moje úvěry."/>
+        <text name="lc_nTermSet" text="Doba nastavena. Tvoje měsíční splátka je nyní %AMOUNT%."/>
+        <text name="lc_h14" text="Doba přesunutého úvěru: %LABEL%, %AMOUNT% měsíčně"/>
+        <text name="lc_chooseTerm" text="Zvolit dobu"/>
+        <text name="lc_popTitle" text="Úvěr ze základní hry převeden"/>
+        <text name="lc_popAmount" text="Převedená částka"/>
+        <text name="lc_popBody" text="Úvěry A Bonita splatily tvůj úvěr ze základní hry. Nyní dlužíš stejnou částku zde jako splátkový úvěr. Na tvůj účet nebyly přidány ani z něj strženy žádné peníze. Zvol, jak dlouho ho chceš splácet."/>
+        <text name="lc_popTerm" text="Splácet po dobu"/>
+        <text name="lc_popConfirm" text="Potvrdit dobu"/>
+        <text name="lc_popLater" text="Rozhodnout později"/>
+        <text name="lc_popLaterNote" text="Rozhodnout později zatím ponechá %s. Dokud nepotvrdíš, můžeš to změnit v Moje úvěry."/>
+        <text name="lc_baseLoanLabel" text="Starý úvěr ze základní hry"/>
+        <text name="lc_s_rollBaseLoan" text="Přesunout stávající úvěry ze základní hry do tohoto modu"/>
+        <text name="lc_s_rollMonths" text="Doba přesunutého úvěru ze základní hry"/>
+        <text name="lc_noLoans" text="Nemáš žádné aktivní úvěry."/>
+        <text name="lc_colType" text="Druh"/>
+        <text name="lc_colCollateral" text="Zajištění"/>
+        <text name="lc_colBalance" text="Zůstatek"/>
+        <text name="lc_colRate" text="Úrok"/>
+        <text name="lc_colMonthly" text="Měsíčně"/>
+        <text name="lc_colLeft" text="Zbývá"/>
+        <text name="lc_colStatus" text="Stav"/>
+        <text name="lc_stOk" text="Včas"/>
+        <text name="lc_stOverdue" text="Po splatnosti %d/%d"/>
+        <text name="lc_unsecuredShort" text="Nezajištěný"/>
+        <text name="lc_principal" text="Půjčeno"/>
+        <text name="lc_interestOwed" text="Dlužné úroky a poplatky"/>
+        <text name="lc_missedTotal" text="Zmeškané splátky"/>
+        <text name="lc_payoffFee" text="Poplatek za předčasné splacení"/>
+        <text name="lc_payOverdue" text="Zaplatit dlužné %s"/>
+        <text name="lc_payExtra" text="Zaplatit %s"/>
+        <text name="lc_payOff" text="Splatit %s"/>
+        <text name="lc_typeTerm" text="Splátkový úvěr"/>
+        <text name="lc_typeEquip" text="Úvěr na stroje"/>
+        <text name="lc_typeLand" text="Hypotéka"/>
+        <text name="lc_desc1" text="Nezajištěný. Nejvyšší úrok, limit podle tvého úvěrového skóre."/>
+        <text name="lc_desc2" text="Zajištěný tvým vozidlem. Při nesplácení může být zabaveno."/>
+        <text name="lc_desc3" text="Zajištěný tvou půdou. Nejnižší úrok, nejdelší doby."/>
+        <text name="lc_noCollateral" text="Zajištění není potřeba"/>
+        <text name="lc_termInfo" text="Tvůj limit roste s úvěrovým skóre. Plať včas, abys ho zvýšil."/>
+        <text name="lc_pickVehicle" text="Vyber vozidlo jako zajištění"/>
+        <text name="lc_pickLand" text="Vyber půdu jako zajištění"/>
+        <text name="lc_noVehicles" text="Nevlastníš žádná vozidla, která mohou sloužit jako zajištění."/>
+        <text name="lc_noLand" text="Nevlastníš žádnou půdu."/>
+        <text name="lc_pledged" text="Zastaveno"/>
+        <text name="lc_amount" text="Částka"/>
+        <text name="lc_max" text="Max"/>
+        <text name="lc_maxAmount" text="Až %s"/>
+        <text name="lc_term" text="Doba"/>
+        <text name="lc_rate" text="Úroková sazba (roční)"/>
+        <text name="lc_monthlyPayment" text="Měsíční splátka"/>
+        <text name="lc_totalInterest" text="Úroky celkem"/>
+        <text name="lc_totalRepaid" text="Celkem splaceno"/>
+        <text name="lc_sign" text="Podepsat úvěr"/>
+        <text name="lc_grpPenalties" text="Zmeškané splátky (dle předvoleb)"/>
+        <text name="lc_grpLending" text="Poskytování úvěrů"/>
+        <text name="lc_on" text="Zap."/>
+        <text name="lc_off" text="Vyp."/>
+        <text name="lc_monthsN" text="%d měsíců"/>
+        <text name="lc_years" text="%d let"/>
+        <text name="lc_preset" text="Sankce: %s"/>
+        <text name="lc_p_lenient" text="Mírné"/>
+        <text name="lc_p_normal" text="Normální"/>
+        <text name="lc_p_strict" text="Přísné"/>
+        <text name="lc_p_custom" text="Vlastní"/>
+        <text name="lc_reset" text="Obnovit výchozí"/>
+        <text name="lc_resetConfirm" text="Klikni znovu pro potvrzení"/>
+        <text name="lc_hostOnly" text="Tato nastavení může měnit pouze hostitel."/>
+        <text name="lc_s_lateFeePct" text="Poplatek z prodlení (% zmeškané splátky)"/>
+        <text name="lc_s_missHit" text="Ztráta skóre za zmeškanou splátku"/>
+        <text name="lc_s_missesToDefault" text="Zmeškané splátky za sebou do nesplácení"/>
+        <text name="lc_s_defaultHit" text="Ztráta skóre při nesplácení"/>
+        <text name="lc_s_blockMonths" text="Žádné nové úvěry po nesplácení po dobu"/>
+        <text name="lc_s_recoveryPct" text="Připsaná hodnota zajištění při zabavení"/>
+        <text name="lc_s_repossess" text="Zabavit zajištění při nesplácení"/>
+        <text name="lc_s_aprTerm" text="Základní sazba: splátkové úvěry"/>
+        <text name="lc_s_aprEquip" text="Základní sazba: úvěry na stroje"/>
+        <text name="lc_s_aprLand" text="Základní sazba: hypotéky"/>
+        <text name="lc_s_scoreSpread" text="Změna sazby na 50 bodů od 700"/>
+        <text name="lc_s_termLimit" text="Nezajištěný limit při skóre 700"/>
+        <text name="lc_s_ltvEquip" text="Max. úvěr vůči hodnotě vozidla"/>
+        <text name="lc_s_ltvLand" text="Max. úvěr vůči hodnotě půdy"/>
+        <text name="lc_s_minScore" text="Minimální skóre pro úvěr"/>
+        <text name="lc_s_startScore" text="Počáteční skóre nových farem"/>
+        <text name="lc_s_onTimeGain" text="Body za splátku včas"/>
+        <text name="lc_s_paidOffGain" text="Body za splacený úvěr"/>
+        <text name="lc_s_convertApr" text="Příplatek k sazbě při prodeji zajištění"/>
+        <text name="lc_s_prepayFeePct" text="Poplatek za předčasné splacení"/>
+        <text name="lc_s_maxLoans" text="Max. aktivních úvěrů na farmu"/>
+        <text name="lc_s_blockBaseLoan" text="Vypnout úvěr ze základní hry"/>
+        <text name="lc_farmlandName" text="Pozemek %d"/>
+        <text name="lc_formerly" text="dříve %s"/>
+        <text name="lc_nTaken" text="Úvěr schválen: %AMOUNT% připsáno na tvůj účet."/>
+        <text name="lc_nPayments" text="Strženy splátky úvěrů: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Zmeškaná splátka %AMOUNT%! Ještě %LABEL% do nesplácení."/>
+        <text name="lc_nDefault" text="Úvěr nesplacen (%LABEL%). Z účtu strženo %AMOUNT%."/>
+        <text name="lc_nPaidOff" text="Úvěr splacen (%LABEL%). Tvoje úvěrové skóre vzrostlo."/>
+        <text name="lc_nRepo" text="Banka zabavila %LABEL% a připsala %AMOUNT%."/>
+        <text name="lc_nSeize" text="Banka zabrala %LABEL% a připsala %AMOUNT%."/>
+        <text name="lc_nConverted" text="Zajištění %LABEL% už není. Úvěr je nyní nezajištěný s vyšším úrokem."/>
+        <text name="lc_nBaseBlocked" text="Úvěr ze základní hry je vypnutý. Použij Úvěry A Bonita (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Mimořádná splátka %AMOUNT% provedena."/>
+        <text name="lc_nOverdue" text="Dlužná částka %AMOUNT% zaplacena."/>
+        <text name="lc_eScore" text="Tvoje úvěrové skóre je na úvěr příliš nízké."/>
+        <text name="lc_eBlocked" text="Po nedávném nesplácení si nemůžeš půjčit."/>
+        <text name="lc_eLimit" text="Tato částka překračuje tvůj limit."/>
+        <text name="lc_eCollateral" text="Vyber zajištění, které vlastníš."/>
+        <text name="lc_ePledged" text="Toto zajištění je už zastaveno."/>
+        <text name="lc_eMoney" text="Na účtu nemáš dost peněz."/>
+        <text name="lc_eMaxLoans" text="Máš maximální počet úvěrů."/>
+        <text name="lc_eInvalid" text="Požadavek nelze zpracovat."/>
+        <text name="lc_eHost" text="Nastavení může měnit pouze hostitel."/>
+    </texts>
+</l10n>

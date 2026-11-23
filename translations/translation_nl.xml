@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Leningen En Krediet: menu openen/sluiten"/>
+        <text name="lc_title" text="Leningen En Krediet"/>
+        <text name="lc_balance" text="Rekening: %s"/>
+        <text name="lc_tabOverview" text="Overzicht"/>
+        <text name="lc_tabLoans" text="Mijn leningen"/>
+        <text name="lc_tabNew" text="Nieuwe lening"/>
+        <text name="lc_tabSettings" text="Instellingen"/>
+        <text name="lc_tabAppearance" text="Uiterlijk"/>
+        <text name="lc_appStyle" text="Menustijl"/>
+        <text name="lc_appAccent" text="Accentkleur"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Helderheid"/>
+        <text name="lc_appReset" text="Uiterlijk herstellen"/>
+        <text name="lc_appNote" text="Het uiterlijk wordt op deze computer opgeslagen en geldt alleen voor jouw menu."/>
+        <text name="lc_th1" text="Bos"/>
+        <text name="lc_th2" text="Middernachtblauw"/>
+        <text name="lc_th3" text="Oogstgoud"/>
+        <text name="lc_th4" text="Schuurrood"/>
+        <text name="lc_th5" text="Leisteen"/>
+        <text name="lc_th6" text="Antraciet &amp; oranje"/>
+        <text name="lc_th7" text="Zonsondergang"/>
+        <text name="lc_th8" text="Lavendel"/>
+        <text name="lc_th9" text="Blauwgroen"/>
+        <text name="lc_th10" text="Woestijnzand"/>
+        <text name="lc_th11" text="Arctisch"/>
+        <text name="lc_th12" text="Hoog contrast"/>
+        <text name="lc_th13" text="Spelstijl"/>
+        <text name="lc_noFarm" text="Sluit je aan bij een boerderij om leningen te gebruiken."/>
+        <text name="lc_help" text="Ctrl+B / Esc: sluiten   Tab of 1-5: tabbladen   Op/Neer: kiezen   Links/Rechts: aanpassen (Shift x10)   Enter: tekenen"/>
+        <text name="lc_help2" text="Ctrl+S: opslaan   Ctrl+Q: hoofdmenu   Ctrl+X: naar bureaublad (twee keer drukken)"/>
+        <text name="lc_btnSave" text="Opslaan"/>
+        <text name="lc_btnQuitMenu" text="Hoofdmenu"/>
+        <text name="lc_btnQuitDesktop" text="Bureaublad"/>
+        <text name="lc_btnConfirm" text="Nogmaals om te stoppen"/>
+        <text name="lc_nSaved" text="Spel opgeslagen."/>
+        <text name="input_LC_SAVE_GAME" text="Menu Leningen En Krediet: spel opslaan"/>
+        <text name="input_LC_QUIT_MENU" text="Menu Leningen En Krediet: naar hoofdmenu"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Menu Leningen En Krediet: naar bureaublad"/>
+        <text name="lc_creditScore" text="Kredietscore"/>
+        <text name="lc_r_poor" text="Slecht"/>
+        <text name="lc_r_fair" text="Matig"/>
+        <text name="lc_r_good" text="Goed"/>
+        <text name="lc_r_veryGood" text="Zeer goed"/>
+        <text name="lc_r_excellent" text="Uitstekend"/>
+        <text name="lc_rateTerm" text="Rente aflossingslening"/>
+        <text name="lc_rateEquip" text="Rente machinelening"/>
+        <text name="lc_rateLand" text="Rente hypotheek"/>
+        <text name="lc_unsecured" text="Ongedekt gebruikt / limiet"/>
+        <text name="lc_totalDebt" text="Totale schuld"/>
+        <text name="lc_monthlyTotal" text="Termijnen per maand"/>
+        <text name="lc_overdue" text="Achterstallig"/>
+        <text name="lc_statusOk" text="Je kunt nieuwe leningen afsluiten."/>
+        <text name="lc_statusBlocked" text="Nog %d maand(en) geblokkeerd voor nieuwe leningen."/>
+        <text name="lc_baseNote" text="De lening van het basisspel is uitgeschakeld. Een oude kun je nog aflossen bij Financiën."/>
+        <text name="lc_history" text="Kredietgeschiedenis"/>
+        <text name="lc_noHistory" text="Nog niets."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="%AMOUNT% geleend (%LABEL%)"/>
+        <text name="lc_h2" text="Maandtermijnen: %AMOUNT%"/>
+        <text name="lc_h3" text="Termijn van %AMOUNT% gemist (%LABEL%)"/>
+        <text name="lc_h4" text="Wanbetaling, %AMOUNT% afgeschreven (%LABEL%)"/>
+        <text name="lc_h5" text="Lening van %AMOUNT% afgelost (%LABEL%)"/>
+        <text name="lc_h6" text="%LABEL% teruggenomen, %AMOUNT% bijgeschreven"/>
+        <text name="lc_h7" text="%LABEL% in beslag genomen, %AMOUNT% bijgeschreven"/>
+        <text name="lc_h8" text="Onderpand weg, nu ongedekt (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Extra aflossing %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Achterstand betaald %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Oude lening van het basisspel van %AMOUNT% hierheen verplaatst"/>
+        <text name="lc_nRolled" text="Je lening van het basisspel van %AMOUNT% is overgezet naar Leningen En Krediet. Kies de looptijd in het venster of bij Mijn leningen."/>
+        <text name="lc_nTermSet" text="Looptijd ingesteld. Je maandtermijn is nu %AMOUNT%."/>
+        <text name="lc_h14" text="Looptijd verplaatste lening: %LABEL%, %AMOUNT% per maand"/>
+        <text name="lc_chooseTerm" text="Looptijd kiezen"/>
+        <text name="lc_popTitle" text="Lening van het basisspel overgezet"/>
+        <text name="lc_popAmount" text="Overgezet bedrag"/>
+        <text name="lc_popBody" text="Leningen En Krediet heeft je lening van het basisspel afgelost. Je bent nu hetzelfde bedrag hier verschuldigd als aflossingslening. Er is geen geld bijgeschreven of afgeschreven. Kies hoe lang je erover wilt doen om het terug te betalen."/>
+        <text name="lc_popTerm" text="Terugbetalen in"/>
+        <text name="lc_popConfirm" text="Looptijd bevestigen"/>
+        <text name="lc_popLater" text="Later beslissen"/>
+        <text name="lc_popLaterNote" text="Later beslissen houdt voorlopig %s. Tot je bevestigt, kun je het wijzigen bij Mijn leningen."/>
+        <text name="lc_baseLoanLabel" text="Oude lening van het basisspel"/>
+        <text name="lc_s_rollBaseLoan" text="Bestaande leningen van het basisspel naar deze mod verplaatsen"/>
+        <text name="lc_s_rollMonths" text="Looptijd voor een verplaatste lening van het basisspel"/>
+        <text name="lc_noLoans" text="Je hebt geen lopende leningen."/>
+        <text name="lc_colType" text="Soort"/>
+        <text name="lc_colCollateral" text="Onderpand"/>
+        <text name="lc_colBalance" text="Saldo"/>
+        <text name="lc_colRate" text="Rente"/>
+        <text name="lc_colMonthly" text="Per maand"/>
+        <text name="lc_colLeft" text="Resterend"/>
+        <text name="lc_colStatus" text="Status"/>
+        <text name="lc_stOk" text="Op tijd"/>
+        <text name="lc_stOverdue" text="Achterstallig %d/%d"/>
+        <text name="lc_unsecuredShort" text="Ongedekt"/>
+        <text name="lc_principal" text="Geleend"/>
+        <text name="lc_interestOwed" text="Verschuldigde rente en kosten"/>
+        <text name="lc_missedTotal" text="Gemiste termijnen"/>
+        <text name="lc_payoffFee" text="Boete vervroegde aflossing"/>
+        <text name="lc_payOverdue" text="Achterstand betalen %s"/>
+        <text name="lc_payExtra" text="%s betalen"/>
+        <text name="lc_payOff" text="Aflossen %s"/>
+        <text name="lc_typeTerm" text="Aflossingslening"/>
+        <text name="lc_typeEquip" text="Machinelening"/>
+        <text name="lc_typeLand" text="Hypotheek"/>
+        <text name="lc_desc1" text="Ongedekt. Hoogste rente, limiet volgens je kredietscore."/>
+        <text name="lc_desc2" text="Gedekt door een eigen voertuig. Bij wanbetaling kan het worden teruggenomen."/>
+        <text name="lc_desc3" text="Gedekt door eigen grond. Laagste rente, langste looptijden."/>
+        <text name="lc_noCollateral" text="Geen onderpand nodig"/>
+        <text name="lc_termInfo" text="Je limiet groeit met je kredietscore. Betaal op tijd om hem te verhogen."/>
+        <text name="lc_pickVehicle" text="Kies een voertuig als onderpand"/>
+        <text name="lc_pickLand" text="Kies grond als onderpand"/>
+        <text name="lc_noVehicles" text="Je hebt geen voertuigen die als onderpand kunnen dienen."/>
+        <text name="lc_noLand" text="Je hebt geen grond."/>
+        <text name="lc_pledged" text="Verpand"/>
+        <text name="lc_amount" text="Bedrag"/>
+        <text name="lc_max" text="Max"/>
+        <text name="lc_maxAmount" text="Tot %s"/>
+        <text name="lc_term" text="Looptijd"/>
+        <text name="lc_rate" text="Rente (per jaar)"/>
+        <text name="lc_monthlyPayment" text="Maandtermijn"/>
+        <text name="lc_totalInterest" text="Totale rente"/>
+        <text name="lc_totalRepaid" text="Totaal terugbetaald"/>
+        <text name="lc_sign" text="Lening tekenen"/>
+        <text name="lc_grpPenalties" text="Gemiste termijnen (via voorinstellingen)"/>
+        <text name="lc_grpLending" text="Kredietverlening"/>
+        <text name="lc_on" text="Aan"/>
+        <text name="lc_off" text="Uit"/>
+        <text name="lc_monthsN" text="%d maanden"/>
+        <text name="lc_years" text="%d jaar"/>
+        <text name="lc_preset" text="Boetes: %s"/>
+        <text name="lc_p_lenient" text="Mild"/>
+        <text name="lc_p_normal" text="Normaal"/>
+        <text name="lc_p_strict" text="Streng"/>
+        <text name="lc_p_custom" text="Eigen"/>
+        <text name="lc_reset" text="Standaard herstellen"/>
+        <text name="lc_resetConfirm" text="Klik nogmaals om te bevestigen"/>
+        <text name="lc_hostOnly" text="Alleen de host kan deze instellingen wijzigen."/>
+        <text name="lc_s_lateFeePct" text="Boete bij te laat (% van de gemiste termijn)"/>
+        <text name="lc_s_missHit" text="Scoreverlies per gemiste termijn"/>
+        <text name="lc_s_missesToDefault" text="Gemiste termijnen op rij tot wanbetaling"/>
+        <text name="lc_s_defaultHit" text="Scoreverlies bij wanbetaling"/>
+        <text name="lc_s_blockMonths" text="Geen nieuwe leningen na wanbetaling gedurende"/>
+        <text name="lc_s_recoveryPct" text="Bijgeschreven waarde bij inbeslagname"/>
+        <text name="lc_s_repossess" text="Onderpand in beslag nemen bij wanbetaling"/>
+        <text name="lc_s_aprTerm" text="Basisrente: aflossingsleningen"/>
+        <text name="lc_s_aprEquip" text="Basisrente: machineleningen"/>
+        <text name="lc_s_aprLand" text="Basisrente: hypotheken"/>
+        <text name="lc_s_scoreSpread" text="Renteverschil per 50 punten vanaf 700"/>
+        <text name="lc_s_termLimit" text="Ongedekte limiet bij score 700"/>
+        <text name="lc_s_ltvEquip" text="Max. lening t.o.v. voertuigwaarde"/>
+        <text name="lc_s_ltvLand" text="Max. lening t.o.v. grondwaarde"/>
+        <text name="lc_s_minScore" text="Minimale score om te lenen"/>
+        <text name="lc_s_startScore" text="Startscore voor nieuwe boerderijen"/>
+        <text name="lc_s_onTimeGain" text="Scorewinst per tijdige termijn"/>
+        <text name="lc_s_paidOffGain" text="Scorewinst bij afgeloste lening"/>
+        <text name="lc_s_convertApr" text="Extra rente als onderpand verkocht wordt"/>
+        <text name="lc_s_prepayFeePct" text="Boete vervroegde aflossing"/>
+        <text name="lc_s_maxLoans" text="Max. lopende leningen per boerderij"/>
+        <text name="lc_s_blockBaseLoan" text="Lening van het basisspel uitschakelen"/>
+        <text name="lc_farmlandName" text="Perceel %d"/>
+        <text name="lc_formerly" text="was %s"/>
+        <text name="lc_nTaken" text="Lening goedgekeurd: %AMOUNT% op je rekening gestort."/>
+        <text name="lc_nPayments" text="Leningtermijnen geïnd: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Leningtermijn van %AMOUNT% gemist! Nog %LABEL% tot wanbetaling."/>
+        <text name="lc_nDefault" text="Lening in wanbetaling (%LABEL%). %AMOUNT% van je rekening afgeschreven."/>
+        <text name="lc_nPaidOff" text="Lening afgelost (%LABEL%). Je kredietscore is gestegen."/>
+        <text name="lc_nRepo" text="De bank heeft %LABEL% teruggenomen en %AMOUNT% bijgeschreven."/>
+        <text name="lc_nSeize" text="De bank heeft %LABEL% in beslag genomen en %AMOUNT% bijgeschreven."/>
+        <text name="lc_nConverted" text="Onderpand %LABEL% is weg. De lening is nu ongedekt, tegen een hogere rente."/>
+        <text name="lc_nBaseBlocked" text="De lening van het basisspel is uitgeschakeld. Gebruik Leningen En Krediet (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Extra aflossing van %AMOUNT% gedaan."/>
+        <text name="lc_nOverdue" text="Achterstand van %AMOUNT% betaald."/>
+        <text name="lc_eScore" text="Je kredietscore is te laag om te lenen."/>
+        <text name="lc_eBlocked" text="Na een recente wanbetaling kun je niet lenen."/>
+        <text name="lc_eLimit" text="Dat bedrag is hoger dan je limiet."/>
+        <text name="lc_eCollateral" text="Kies onderpand dat van jou is."/>
+        <text name="lc_ePledged" text="Dat onderpand is al verpand."/>
+        <text name="lc_eMoney" text="Niet genoeg geld op je rekening."/>
+        <text name="lc_eMaxLoans" text="Je hebt het maximale aantal leningen."/>
+        <text name="lc_eInvalid" text="Dat verzoek kon niet worden verwerkt."/>
+        <text name="lc_eHost" text="Alleen de host kan instellingen wijzigen."/>
+    </texts>
+</l10n>

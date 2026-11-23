@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Krediler Ve Kredi Notu: menüyü aç/kapat"/>
+        <text name="lc_title" text="Krediler Ve Kredi Notu"/>
+        <text name="lc_balance" text="Hesap: %s"/>
+        <text name="lc_tabOverview" text="Genel Bakış"/>
+        <text name="lc_tabLoans" text="Kredilerim"/>
+        <text name="lc_tabNew" text="Yeni Kredi"/>
+        <text name="lc_tabSettings" text="Ayarlar"/>
+        <text name="lc_tabAppearance" text="Görünüm"/>
+        <text name="lc_appStyle" text="Menü stili"/>
+        <text name="lc_appAccent" text="Vurgu rengi"/>
+        <text name="lc_appAuto" text="Otomatik"/>
+        <text name="lc_appBright" text="Parlaklık"/>
+        <text name="lc_appReset" text="Görünümü sıfırla"/>
+        <text name="lc_appNote" text="Görünüm bu bilgisayarda kaydedilir ve yalnızca senin menünü etkiler."/>
+        <text name="lc_th1" text="Orman"/>
+        <text name="lc_th2" text="Gece mavisi"/>
+        <text name="lc_th3" text="Hasat altını"/>
+        <text name="lc_th4" text="Ahır kırmızısı"/>
+        <text name="lc_th5" text="Arduvaz"/>
+        <text name="lc_th6" text="Antrasit ve turuncu"/>
+        <text name="lc_th7" text="Gün batımı"/>
+        <text name="lc_th8" text="Lavanta"/>
+        <text name="lc_th9" text="Camgöbeği"/>
+        <text name="lc_th10" text="Çöl kumu"/>
+        <text name="lc_th11" text="Arktik"/>
+        <text name="lc_th12" text="Yüksek kontrast"/>
+        <text name="lc_th13" text="Oyun stili"/>
+        <text name="lc_noFarm" text="Kredileri kullanmak için bir çiftliğe katıl."/>
+        <text name="lc_help" text="Ctrl+B / Esc: kapat   Tab veya 1-5: sekmeler   Yukarı/Aşağı: seç   Sol/Sağ: ayarla (Shift x10)   Enter: imzala"/>
+        <text name="lc_help2" text="Ctrl+S: kaydet   Ctrl+Q: ana menü   Ctrl+X: masaüstüne çık (çıkmak için iki kez bas)"/>
+        <text name="lc_btnSave" text="Kaydet"/>
+        <text name="lc_btnQuitMenu" text="Ana Menü"/>
+        <text name="lc_btnQuitDesktop" text="Masaüstü"/>
+        <text name="lc_btnConfirm" text="Çıkmak için tekrar"/>
+        <text name="lc_nSaved" text="Oyun kaydedildi."/>
+        <text name="input_LC_SAVE_GAME" text="Krediler Ve Kredi Notu menüsü: oyunu kaydet"/>
+        <text name="input_LC_QUIT_MENU" text="Krediler Ve Kredi Notu menüsü: ana menüye çık"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Krediler Ve Kredi Notu menüsü: masaüstüne çık"/>
+        <text name="lc_creditScore" text="Kredi notu"/>
+        <text name="lc_r_poor" text="Zayıf"/>
+        <text name="lc_r_fair" text="Orta"/>
+        <text name="lc_r_good" text="İyi"/>
+        <text name="lc_r_veryGood" text="Çok iyi"/>
+        <text name="lc_r_excellent" text="Mükemmel"/>
+        <text name="lc_rateTerm" text="Vadeli kredi faizi"/>
+        <text name="lc_rateEquip" text="Ekipman kredisi faizi"/>
+        <text name="lc_rateLand" text="İpotek faizi"/>
+        <text name="lc_unsecured" text="Teminatsız kullanılan / limit"/>
+        <text name="lc_totalDebt" text="Toplam borç"/>
+        <text name="lc_monthlyTotal" text="Aylık ödemeler"/>
+        <text name="lc_overdue" text="Gecikmiş"/>
+        <text name="lc_statusOk" text="Yeni kredi alabilirsin."/>
+        <text name="lc_statusBlocked" text="%d ay daha yeni kredi alamazsın."/>
+        <text name="lc_baseNote" text="Temel oyun kredisi kapalı. Eski bir krediyi Finans bölümünde hâlâ geri ödeyebilirsin."/>
+        <text name="lc_history" text="Kredi geçmişi"/>
+        <text name="lc_noHistory" text="Henüz bir şey yok."/>
+        <text name="lc_monthShort" text="A%d"/>
+        <text name="lc_h1" text="%AMOUNT% alındı (%LABEL%)"/>
+        <text name="lc_h2" text="Aylık ödemeler: %AMOUNT%"/>
+        <text name="lc_h3" text="%AMOUNT% ödeme kaçırıldı (%LABEL%)"/>
+        <text name="lc_h4" text="Temerrüt, %AMOUNT% tahsil edildi (%LABEL%)"/>
+        <text name="lc_h5" text="%AMOUNT% kredi kapatıldı (%LABEL%)"/>
+        <text name="lc_h6" text="%LABEL% geri alındı, %AMOUNT% yatırıldı"/>
+        <text name="lc_h7" text="%LABEL% el konuldu, %AMOUNT% yatırıldı"/>
+        <text name="lc_h8" text="Teminat yok, artık teminatsız (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Ek ödeme %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Gecikme ödendi %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="%AMOUNT% tutarındaki eski temel oyun kredisi buraya taşındı"/>
+        <text name="lc_nRolled" text="%AMOUNT% tutarındaki temel oyun kredin Krediler Ve Kredi Notu'na aktarıldı. Vadesini pencerede veya Kredilerim sekmesinde seç."/>
+        <text name="lc_nTermSet" text="Vade belirlendi. Aylık ödemen artık %AMOUNT%."/>
+        <text name="lc_h14" text="Taşınan kredinin vadesi: %LABEL%, ayda %AMOUNT%"/>
+        <text name="lc_chooseTerm" text="Vade seç"/>
+        <text name="lc_popTitle" text="Temel oyun kredisi aktarıldı"/>
+        <text name="lc_popAmount" text="Aktarılan tutar"/>
+        <text name="lc_popBody" text="Krediler Ve Kredi Notu temel oyun kredini kapattı. Artık aynı tutarı burada vadeli kredi olarak borçlusun. Hesabına para eklenmedi ve hesabından para alınmadı. Ne kadar sürede geri ödemek istediğini seç."/>
+        <text name="lc_popTerm" text="Geri ödeme süresi"/>
+        <text name="lc_popConfirm" text="Vadeyi onayla"/>
+        <text name="lc_popLater" text="Sonra karar ver"/>
+        <text name="lc_popLaterNote" text="Sonra karar ver şimdilik %s olarak bırakır. Onaylayana kadar Kredilerim sekmesinden değiştirebilirsin."/>
+        <text name="lc_baseLoanLabel" text="Eski temel oyun kredisi"/>
+        <text name="lc_s_rollBaseLoan" text="Mevcut temel oyun kredilerini bu moda taşı"/>
+        <text name="lc_s_rollMonths" text="Taşınan temel oyun kredisinin vadesi"/>
+        <text name="lc_noLoans" text="Aktif kredin yok."/>
+        <text name="lc_colType" text="Tür"/>
+        <text name="lc_colCollateral" text="Teminat"/>
+        <text name="lc_colBalance" text="Bakiye"/>
+        <text name="lc_colRate" text="Faiz"/>
+        <text name="lc_colMonthly" text="Aylık"/>
+        <text name="lc_colLeft" text="Kalan"/>
+        <text name="lc_colStatus" text="Durum"/>
+        <text name="lc_stOk" text="Zamanında"/>
+        <text name="lc_stOverdue" text="Gecikmiş %d/%d"/>
+        <text name="lc_unsecuredShort" text="Teminatsız"/>
+        <text name="lc_principal" text="Borç alınan"/>
+        <text name="lc_interestOwed" text="Borçlu faiz ve ücretler"/>
+        <text name="lc_missedTotal" text="Kaçırılan ödemeler"/>
+        <text name="lc_payoffFee" text="Erken kapama ücreti"/>
+        <text name="lc_payOverdue" text="Gecikmeyi öde %s"/>
+        <text name="lc_payExtra" text="%s öde"/>
+        <text name="lc_payOff" text="Kapat %s"/>
+        <text name="lc_typeTerm" text="Vadeli kredi"/>
+        <text name="lc_typeEquip" text="Ekipman kredisi"/>
+        <text name="lc_typeLand" text="İpotek"/>
+        <text name="lc_desc1" text="Teminatsız. En yüksek faiz, limit kredi notuna göre belirlenir."/>
+        <text name="lc_desc2" text="Sahip olduğun bir araçla teminatlı. Temerrütte geri alınabilir."/>
+        <text name="lc_desc3" text="Sahip olduğun arazi ile teminatlı. En düşük faiz, en uzun vadeler."/>
+        <text name="lc_noCollateral" text="Teminat gerekmez"/>
+        <text name="lc_termInfo" text="Limitin kredi notunla birlikte artar. Yükseltmek için zamanında öde."/>
+        <text name="lc_pickVehicle" text="Teminat olarak bir araç seç"/>
+        <text name="lc_pickLand" text="Teminat olarak arazi seç"/>
+        <text name="lc_noVehicles" text="Teminat olarak kullanılabilecek aracın yok."/>
+        <text name="lc_noLand" text="Hiç arazin yok."/>
+        <text name="lc_pledged" text="Rehinli"/>
+        <text name="lc_amount" text="Tutar"/>
+        <text name="lc_max" text="Maks"/>
+        <text name="lc_maxAmount" text="En fazla %s"/>
+        <text name="lc_term" text="Vade"/>
+        <text name="lc_rate" text="Faiz oranı (yıllık)"/>
+        <text name="lc_monthlyPayment" text="Aylık ödeme"/>
+        <text name="lc_totalInterest" text="Toplam faiz"/>
+        <text name="lc_totalRepaid" text="Toplam geri ödeme"/>
+        <text name="lc_sign" text="Krediyi imzala"/>
+        <text name="lc_grpPenalties" text="Kaçırılan ödemeler (ön ayarlardan)"/>
+        <text name="lc_grpLending" text="Kredi verme"/>
+        <text name="lc_on" text="Açık"/>
+        <text name="lc_off" text="Kapalı"/>
+        <text name="lc_monthsN" text="%d ay"/>
+        <text name="lc_years" text="%d yıl"/>
+        <text name="lc_preset" text="Cezalar: %s"/>
+        <text name="lc_p_lenient" text="Hoşgörülü"/>
+        <text name="lc_p_normal" text="Normal"/>
+        <text name="lc_p_strict" text="Sıkı"/>
+        <text name="lc_p_custom" text="Özel"/>
+        <text name="lc_reset" text="Varsayılanlara dön"/>
+        <text name="lc_resetConfirm" text="Onaylamak için tekrar tıkla"/>
+        <text name="lc_hostOnly" text="Bu ayarları yalnızca sunucu sahibi değiştirebilir."/>
+        <text name="lc_s_lateFeePct" text="Gecikme ücreti (kaçırılan ödemenin %'si)"/>
+        <text name="lc_s_missHit" text="Kaçırılan ödeme başına not kaybı"/>
+        <text name="lc_s_missesToDefault" text="Temerrüde kadar art arda kaçırılan ödeme"/>
+        <text name="lc_s_defaultHit" text="Temerrütte not kaybı"/>
+        <text name="lc_s_blockMonths" text="Temerrütten sonra yeni kredi yasağı süresi"/>
+        <text name="lc_s_recoveryPct" text="El konulan teminattan yatırılan değer"/>
+        <text name="lc_s_repossess" text="Temerrütte teminata el koy"/>
+        <text name="lc_s_aprTerm" text="Temel faiz: vadeli krediler"/>
+        <text name="lc_s_aprEquip" text="Temel faiz: ekipman kredileri"/>
+        <text name="lc_s_aprLand" text="Temel faiz: ipotekler"/>
+        <text name="lc_s_scoreSpread" text="700'den her 50 puan farkta faiz değişimi"/>
+        <text name="lc_s_termLimit" text="700 notunda teminatsız limit"/>
+        <text name="lc_s_ltvEquip" text="Araç değerine göre maks. kredi"/>
+        <text name="lc_s_ltvLand" text="Arazi değerine göre maks. kredi"/>
+        <text name="lc_s_minScore" text="Kredi için en düşük not"/>
+        <text name="lc_s_startScore" text="Yeni çiftliklerin başlangıç notu"/>
+        <text name="lc_s_onTimeGain" text="Zamanında ödeme başına not artışı"/>
+        <text name="lc_s_paidOffGain" text="Kapatılan kredi başına not artışı"/>
+        <text name="lc_s_convertApr" text="Teminat satılırsa ek faiz"/>
+        <text name="lc_s_prepayFeePct" text="Erken kapama ücreti"/>
+        <text name="lc_s_maxLoans" text="Çiftlik başına maks. aktif kredi"/>
+        <text name="lc_s_blockBaseLoan" text="Temel oyun kredisini kapat"/>
+        <text name="lc_farmlandName" text="Arazi %d"/>
+        <text name="lc_formerly" text="eski %s"/>
+        <text name="lc_nTaken" text="Kredi onaylandı: %AMOUNT% hesabına yatırıldı."/>
+        <text name="lc_nPayments" text="Kredi ödemeleri tahsil edildi: %AMOUNT%."/>
+        <text name="lc_nMissed" text="%AMOUNT% kredi ödemesi kaçırıldı! Temerrüde %LABEL% kaldı."/>
+        <text name="lc_nDefault" text="Kredi temerrüde düştü (%LABEL%). Hesabından %AMOUNT% tahsil edildi."/>
+        <text name="lc_nPaidOff" text="Kredi kapatıldı (%LABEL%). Kredi notun yükseldi."/>
+        <text name="lc_nRepo" text="Banka %LABEL% geri aldı ve %AMOUNT% yatırdı."/>
+        <text name="lc_nSeize" text="Banka %LABEL% el koydu ve %AMOUNT% yatırdı."/>
+        <text name="lc_nConverted" text="%LABEL% teminatı artık yok. Kredi artık teminatsız ve faizi daha yüksek."/>
+        <text name="lc_nBaseBlocked" text="Temel oyun kredisi kapalı. Krediler Ve Kredi Notu'nu kullan (Ctrl+B)."/>
+        <text name="lc_nExtra" text="%AMOUNT% ek ödeme yapıldı."/>
+        <text name="lc_nOverdue" text="%AMOUNT% gecikmiş tutar ödendi."/>
+        <text name="lc_eScore" text="Kredi notun borç almak için çok düşük."/>
+        <text name="lc_eBlocked" text="Yakın zamandaki bir temerrütten sonra borç alamazsın."/>
+        <text name="lc_eLimit" text="Bu tutar limitini aşıyor."/>
+        <text name="lc_eCollateral" text="Sahip olduğun bir teminat seç."/>
+        <text name="lc_ePledged" text="Bu teminat zaten rehinli."/>
+        <text name="lc_eMoney" text="Hesabında yeterli para yok."/>
+        <text name="lc_eMaxLoans" text="En fazla kredi sayısına ulaştın."/>
+        <text name="lc_eInvalid" text="Bu istek işlenemedi."/>
+        <text name="lc_eHost" text="Ayarları yalnızca sunucu sahibi değiştirebilir."/>
+    </texts>
+</l10n>

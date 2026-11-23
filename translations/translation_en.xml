@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Loans And Credit: open/close menu"/>
+        <text name="lc_title" text="Loans And Credit"/>
+        <text name="lc_balance" text="Account: %s"/>
+        <text name="lc_tabOverview" text="Overview"/>
+        <text name="lc_tabLoans" text="My Loans"/>
+        <text name="lc_tabNew" text="New Loan"/>
+        <text name="lc_tabSettings" text="Settings"/>
+        <text name="lc_tabAppearance" text="Appearance"/>
+        <text name="lc_appStyle" text="Menu style"/>
+        <text name="lc_appAccent" text="Accent color"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Brightness"/>
+        <text name="lc_appReset" text="Reset appearance"/>
+        <text name="lc_appNote" text="Appearance is saved on this computer and only affects your own menu."/>
+        <text name="lc_th1" text="Forest"/>
+        <text name="lc_th2" text="Midnight Blue"/>
+        <text name="lc_th3" text="Harvest Gold"/>
+        <text name="lc_th4" text="Barn Red"/>
+        <text name="lc_th5" text="Slate"/>
+        <text name="lc_th6" text="Charcoal &amp; Orange"/>
+        <text name="lc_th7" text="Sunset"/>
+        <text name="lc_th8" text="Lavender"/>
+        <text name="lc_th9" text="Teal"/>
+        <text name="lc_th10" text="Desert Sand"/>
+        <text name="lc_th11" text="Arctic"/>
+        <text name="lc_th12" text="High Contrast"/>
+        <text name="lc_th13" text="Game Default"/>
+        <text name="lc_noFarm" text="Join a farm to use loans."/>
+        <text name="lc_help" text="Ctrl+B / Esc: close   Tab or 1-5: tabs   Up/Down: select   Left/Right: adjust (Shift x10)   Enter: sign"/>
+        <text name="lc_help2" text="Ctrl+S: save game   Ctrl+Q: quit to main menu   Ctrl+X: quit to desktop (press twice to quit)"/>
+        <text name="lc_btnSave" text="Save"/>
+        <text name="lc_btnQuitMenu" text="Main Menu"/>
+        <text name="lc_btnQuitDesktop" text="Desktop"/>
+        <text name="lc_btnConfirm" text="Again to quit"/>
+        <text name="lc_nSaved" text="Game saved."/>
+        <text name="input_LC_SAVE_GAME" text="Loans And Credit menu: save game"/>
+        <text name="input_LC_QUIT_MENU" text="Loans And Credit menu: quit to main menu"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Loans And Credit menu: quit to desktop"/>
+        <text name="lc_creditScore" text="Credit score"/>
+        <text name="lc_r_poor" text="Poor"/>
+        <text name="lc_r_fair" text="Fair"/>
+        <text name="lc_r_good" text="Good"/>
+        <text name="lc_r_veryGood" text="Very good"/>
+        <text name="lc_r_excellent" text="Excellent"/>
+        <text name="lc_rateTerm" text="Term loan rate"/>
+        <text name="lc_rateEquip" text="Equipment loan rate"/>
+        <text name="lc_rateLand" text="Mortgage rate"/>
+        <text name="lc_unsecured" text="Unsecured used / limit"/>
+        <text name="lc_totalDebt" text="Total debt"/>
+        <text name="lc_monthlyTotal" text="Payments per month"/>
+        <text name="lc_overdue" text="Overdue"/>
+        <text name="lc_statusOk" text="You can take new loans."/>
+        <text name="lc_statusBlocked" text="Blocked from new loans for %d more month(s)."/>
+        <text name="lc_baseNote" text="The base-game loan is disabled. You can still repay an old one in Finances."/>
+        <text name="lc_history" text="Credit history"/>
+        <text name="lc_noHistory" text="Nothing yet."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="Took %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h2" text="Monthly payments: %AMOUNT%"/>
+        <text name="lc_h3" text="Missed payment of %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h4" text="Default, %AMOUNT% charged (%LABEL%)"/>
+        <text name="lc_h5" text="Paid off %AMOUNT% loan (%LABEL%)"/>
+        <text name="lc_h6" text="Repossessed %LABEL%, %AMOUNT% credited"/>
+        <text name="lc_h7" text="Seized %LABEL%, %AMOUNT% credited"/>
+        <text name="lc_h8" text="Collateral gone, now unsecured (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Extra payment %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Paid overdue %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Old base-game loan of %AMOUNT% moved here"/>
+        <text name="lc_nRolled" text="Your base-game loan of %AMOUNT% was transferred to Loans And Credit. Choose its term in the popup or in My Loans."/>
+        <text name="lc_nTermSet" text="Term set. Your monthly payment is now %AMOUNT%."/>
+        <text name="lc_h14" text="Moved loan term set to %LABEL%, %AMOUNT% per month"/>
+        <text name="lc_chooseTerm" text="Choose term"/>
+        <text name="lc_popTitle" text="Base-game loan transferred"/>
+        <text name="lc_popAmount" text="Amount transferred"/>
+        <text name="lc_popBody" text="Loans And Credit has paid off your base-game loan. You now owe the same amount here as a term loan. No money was added to or taken from your account. Choose how long you want to repay it."/>
+        <text name="lc_popTerm" text="Repay over"/>
+        <text name="lc_popConfirm" text="Confirm term"/>
+        <text name="lc_popLater" text="Decide later"/>
+        <text name="lc_popLaterNote" text="Decide later keeps %s for now. Until you confirm, you can change it in My Loans."/>
+        <text name="lc_baseLoanLabel" text="Old base-game loan"/>
+        <text name="lc_s_rollBaseLoan" text="Move existing base-game loans into this mod"/>
+        <text name="lc_s_rollMonths" text="Term for a moved base-game loan"/>
+        <text name="lc_noLoans" text="You have no active loans."/>
+        <text name="lc_colType" text="Type"/>
+        <text name="lc_colCollateral" text="Collateral"/>
+        <text name="lc_colBalance" text="Balance"/>
+        <text name="lc_colRate" text="Rate"/>
+        <text name="lc_colMonthly" text="Monthly"/>
+        <text name="lc_colLeft" text="Left"/>
+        <text name="lc_colStatus" text="Status"/>
+        <text name="lc_stOk" text="On time"/>
+        <text name="lc_stOverdue" text="Overdue %d/%d"/>
+        <text name="lc_unsecuredShort" text="Unsecured"/>
+        <text name="lc_principal" text="Borrowed"/>
+        <text name="lc_interestOwed" text="Interest and fees owed"/>
+        <text name="lc_missedTotal" text="Missed payments"/>
+        <text name="lc_payoffFee" text="Early payoff fee"/>
+        <text name="lc_payOverdue" text="Pay overdue %s"/>
+        <text name="lc_payExtra" text="Pay %s"/>
+        <text name="lc_payOff" text="Pay off %s"/>
+        <text name="lc_typeTerm" text="Term loan"/>
+        <text name="lc_typeEquip" text="Equipment loan"/>
+        <text name="lc_typeLand" text="Mortgage"/>
+        <text name="lc_desc1" text="Unsecured. Highest rate, limit set by your credit score."/>
+        <text name="lc_desc2" text="Secured by a vehicle you own. It can be repossessed on default."/>
+        <text name="lc_desc3" text="Secured by farmland you own. Lowest rate, longest terms."/>
+        <text name="lc_noCollateral" text="No collateral needed"/>
+        <text name="lc_termInfo" text="Your limit grows with your credit score. Pay on time to raise it."/>
+        <text name="lc_pickVehicle" text="Pick a vehicle to pledge"/>
+        <text name="lc_pickLand" text="Pick farmland to pledge"/>
+        <text name="lc_noVehicles" text="You don't own any vehicles that can be pledged."/>
+        <text name="lc_noLand" text="You don't own any farmland."/>
+        <text name="lc_pledged" text="Pledged"/>
+        <text name="lc_amount" text="Amount"/>
+        <text name="lc_max" text="Max"/>
+        <text name="lc_maxAmount" text="Up to %s"/>
+        <text name="lc_term" text="Term"/>
+        <text name="lc_rate" text="Interest rate (yearly)"/>
+        <text name="lc_monthlyPayment" text="Monthly payment"/>
+        <text name="lc_totalInterest" text="Total interest"/>
+        <text name="lc_totalRepaid" text="Total repaid"/>
+        <text name="lc_sign" text="Sign loan"/>
+        <text name="lc_grpPenalties" text="Missed payments (set by presets)"/>
+        <text name="lc_grpLending" text="Lending"/>
+        <text name="lc_on" text="On"/>
+        <text name="lc_off" text="Off"/>
+        <text name="lc_monthsN" text="%d months"/>
+        <text name="lc_years" text="%d years"/>
+        <text name="lc_preset" text="Penalties: %s"/>
+        <text name="lc_p_lenient" text="Lenient"/>
+        <text name="lc_p_normal" text="Normal"/>
+        <text name="lc_p_strict" text="Strict"/>
+        <text name="lc_p_custom" text="Custom"/>
+        <text name="lc_reset" text="Restore defaults"/>
+        <text name="lc_resetConfirm" text="Click again to confirm"/>
+        <text name="lc_hostOnly" text="Only the host can change these settings."/>
+        <text name="lc_s_lateFeePct" text="Late fee (% of the missed payment)"/>
+        <text name="lc_s_missHit" text="Credit score lost per missed payment"/>
+        <text name="lc_s_missesToDefault" text="Missed payments in a row before default"/>
+        <text name="lc_s_defaultHit" text="Credit score lost on default"/>
+        <text name="lc_s_blockMonths" text="No new loans after a default for"/>
+        <text name="lc_s_recoveryPct" text="Collateral value credited when seized"/>
+        <text name="lc_s_repossess" text="Seize collateral on default"/>
+        <text name="lc_s_aprTerm" text="Base rate: term loans"/>
+        <text name="lc_s_aprEquip" text="Base rate: equipment loans"/>
+        <text name="lc_s_aprLand" text="Base rate: mortgages"/>
+        <text name="lc_s_scoreSpread" text="Rate change per 50 score points from 700"/>
+        <text name="lc_s_termLimit" text="Unsecured limit at score 700"/>
+        <text name="lc_s_ltvEquip" text="Max loan vs vehicle value"/>
+        <text name="lc_s_ltvLand" text="Max loan vs land value"/>
+        <text name="lc_s_minScore" text="Minimum score to borrow"/>
+        <text name="lc_s_startScore" text="Starting score for new farms"/>
+        <text name="lc_s_onTimeGain" text="Score gained per on-time payment"/>
+        <text name="lc_s_paidOffGain" text="Score gained when a loan is paid off"/>
+        <text name="lc_s_convertApr" text="Extra rate if collateral is sold"/>
+        <text name="lc_s_prepayFeePct" text="Early payoff fee"/>
+        <text name="lc_s_maxLoans" text="Max active loans per farm"/>
+        <text name="lc_s_blockBaseLoan" text="Disable the base-game loan"/>
+        <text name="lc_farmlandName" text="Farmland %d"/>
+        <text name="lc_formerly" text="was %s"/>
+        <text name="lc_nTaken" text="Loan approved: %AMOUNT% paid into your account."/>
+        <text name="lc_nPayments" text="Loan payments collected: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Missed loan payment of %AMOUNT%! %LABEL% more before default."/>
+        <text name="lc_nDefault" text="Loan defaulted (%LABEL%). %AMOUNT% charged to your account."/>
+        <text name="lc_nPaidOff" text="Loan paid off (%LABEL%). Your credit score went up."/>
+        <text name="lc_nRepo" text="The bank repossessed %LABEL% and credited %AMOUNT%."/>
+        <text name="lc_nSeize" text="The bank seized %LABEL% and credited %AMOUNT%."/>
+        <text name="lc_nConverted" text="Collateral %LABEL% is gone. The loan is now unsecured at a higher rate."/>
+        <text name="lc_nBaseBlocked" text="The base-game loan is disabled. Use Loans And Credit (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Extra payment of %AMOUNT% made."/>
+        <text name="lc_nOverdue" text="Overdue amount of %AMOUNT% paid."/>
+        <text name="lc_eScore" text="Your credit score is too low to borrow."/>
+        <text name="lc_eBlocked" text="You can't borrow after a recent default."/>
+        <text name="lc_eLimit" text="That amount is over your limit."/>
+        <text name="lc_eCollateral" text="Pick collateral you own."/>
+        <text name="lc_ePledged" text="That collateral is already pledged."/>
+        <text name="lc_eMoney" text="Not enough money in your account."/>
+        <text name="lc_eMaxLoans" text="You have the maximum number of loans."/>
+        <text name="lc_eInvalid" text="That request couldn't be processed."/>
+        <text name="lc_eHost" text="Only the host can change settings."/>
+    </texts>
+</l10n>

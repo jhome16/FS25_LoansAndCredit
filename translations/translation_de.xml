@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Kredite Und Bonität: Menü öffnen/schließen"/>
+        <text name="lc_title" text="Kredite Und Bonität"/>
+        <text name="lc_balance" text="Konto: %s"/>
+        <text name="lc_tabOverview" text="Übersicht"/>
+        <text name="lc_tabLoans" text="Meine Kredite"/>
+        <text name="lc_tabNew" text="Neuer Kredit"/>
+        <text name="lc_tabSettings" text="Einstellungen"/>
+        <text name="lc_tabAppearance" text="Aussehen"/>
+        <text name="lc_appStyle" text="Menüstil"/>
+        <text name="lc_appAccent" text="Akzentfarbe"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Helligkeit"/>
+        <text name="lc_appReset" text="Aussehen zurücksetzen"/>
+        <text name="lc_appNote" text="Das Aussehen wird auf diesem Computer gespeichert und gilt nur für dein eigenes Menü."/>
+        <text name="lc_th1" text="Wald"/>
+        <text name="lc_th2" text="Mitternachtsblau"/>
+        <text name="lc_th3" text="Erntegold"/>
+        <text name="lc_th4" text="Scheunenrot"/>
+        <text name="lc_th5" text="Schiefer"/>
+        <text name="lc_th6" text="Anthrazit &amp; Orange"/>
+        <text name="lc_th7" text="Sonnenuntergang"/>
+        <text name="lc_th8" text="Lavendel"/>
+        <text name="lc_th9" text="Petrol"/>
+        <text name="lc_th10" text="Wüstensand"/>
+        <text name="lc_th11" text="Arktis"/>
+        <text name="lc_th12" text="Hoher Kontrast"/>
+        <text name="lc_th13" text="Spielstandard"/>
+        <text name="lc_noFarm" text="Tritt einem Hof bei, um Kredite zu nutzen."/>
+        <text name="lc_help" text="Strg+B / Esc: schließen   Tab oder 1-5: Reiter   Hoch/Runter: wählen   Links/Rechts: ändern (Umschalt x10)   Enter: unterschreiben"/>
+        <text name="lc_help2" text="Strg+S: speichern   Strg+Q: zum Hauptmenü   Strg+X: zum Desktop (zum Beenden zweimal drücken)"/>
+        <text name="lc_btnSave" text="Speichern"/>
+        <text name="lc_btnQuitMenu" text="Hauptmenü"/>
+        <text name="lc_btnQuitDesktop" text="Desktop"/>
+        <text name="lc_btnConfirm" text="Nochmal zum Beenden"/>
+        <text name="lc_nSaved" text="Spiel gespeichert."/>
+        <text name="input_LC_SAVE_GAME" text="Kredite Und Bonität Menü: Spiel speichern"/>
+        <text name="input_LC_QUIT_MENU" text="Kredite Und Bonität Menü: zum Hauptmenü"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Kredite Und Bonität Menü: zum Desktop beenden"/>
+        <text name="lc_creditScore" text="Bonitätswert"/>
+        <text name="lc_r_poor" text="Schlecht"/>
+        <text name="lc_r_fair" text="Mäßig"/>
+        <text name="lc_r_good" text="Gut"/>
+        <text name="lc_r_veryGood" text="Sehr gut"/>
+        <text name="lc_r_excellent" text="Ausgezeichnet"/>
+        <text name="lc_rateTerm" text="Zins Ratenkredit"/>
+        <text name="lc_rateEquip" text="Zins Maschinenkredit"/>
+        <text name="lc_rateLand" text="Zins Hypothek"/>
+        <text name="lc_unsecured" text="Ungesichert genutzt / Limit"/>
+        <text name="lc_totalDebt" text="Gesamtschulden"/>
+        <text name="lc_monthlyTotal" text="Raten pro Monat"/>
+        <text name="lc_overdue" text="Überfällig"/>
+        <text name="lc_statusOk" text="Du kannst neue Kredite aufnehmen."/>
+        <text name="lc_statusBlocked" text="Noch %d Monat(e) für neue Kredite gesperrt."/>
+        <text name="lc_baseNote" text="Der Kredit des Grundspiels ist deaktiviert. Einen alten kannst du unter Finanzen noch tilgen."/>
+        <text name="lc_history" text="Kreditverlauf"/>
+        <text name="lc_noHistory" text="Noch nichts."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="%AMOUNT% aufgenommen (%LABEL%)"/>
+        <text name="lc_h2" text="Monatsraten: %AMOUNT%"/>
+        <text name="lc_h3" text="Rate von %AMOUNT% verpasst (%LABEL%)"/>
+        <text name="lc_h4" text="Ausfall, %AMOUNT% belastet (%LABEL%)"/>
+        <text name="lc_h5" text="Kredit über %AMOUNT% abbezahlt (%LABEL%)"/>
+        <text name="lc_h6" text="%LABEL% gepfändet, %AMOUNT% gutgeschrieben"/>
+        <text name="lc_h7" text="%LABEL% beschlagnahmt, %AMOUNT% gutgeschrieben"/>
+        <text name="lc_h8" text="Sicherheit weg, jetzt ungesichert (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Sondertilgung %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Überfälliges bezahlt %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Alter Grundspiel-Kredit über %AMOUNT% übernommen"/>
+        <text name="lc_nRolled" text="Dein Grundspiel-Kredit über %AMOUNT% wurde zu Kredite Und Bonität übertragen. Wähle die Laufzeit im Fenster oder unter Meine Kredite."/>
+        <text name="lc_nTermSet" text="Laufzeit festgelegt. Deine Monatsrate beträgt jetzt %AMOUNT%."/>
+        <text name="lc_h14" text="Laufzeit des übernommenen Kredits: %LABEL%, %AMOUNT% pro Monat"/>
+        <text name="lc_chooseTerm" text="Laufzeit wählen"/>
+        <text name="lc_popTitle" text="Grundspiel-Kredit übertragen"/>
+        <text name="lc_popAmount" text="Übertragener Betrag"/>
+        <text name="lc_popBody" text="Kredite Und Bonität hat deinen Grundspiel-Kredit abgelöst. Du schuldest jetzt denselben Betrag hier als Ratenkredit. Deinem Konto wurde kein Geld gutgeschrieben oder abgezogen. Wähle, wie lange du ihn zurückzahlen willst."/>
+        <text name="lc_popTerm" text="Zurückzahlen über"/>
+        <text name="lc_popConfirm" text="Laufzeit bestätigen"/>
+        <text name="lc_popLater" text="Später entscheiden"/>
+        <text name="lc_popLaterNote" text="Später entscheiden behält vorerst %s. Bis zur Bestätigung kannst du es unter Meine Kredite ändern."/>
+        <text name="lc_baseLoanLabel" text="Alter Grundspiel-Kredit"/>
+        <text name="lc_s_rollBaseLoan" text="Bestehende Grundspiel-Kredite in diese Mod übernehmen"/>
+        <text name="lc_s_rollMonths" text="Laufzeit für einen übernommenen Grundspiel-Kredit"/>
+        <text name="lc_noLoans" text="Du hast keine laufenden Kredite."/>
+        <text name="lc_colType" text="Art"/>
+        <text name="lc_colCollateral" text="Sicherheit"/>
+        <text name="lc_colBalance" text="Restschuld"/>
+        <text name="lc_colRate" text="Zins"/>
+        <text name="lc_colMonthly" text="Monatlich"/>
+        <text name="lc_colLeft" text="Rest"/>
+        <text name="lc_colStatus" text="Status"/>
+        <text name="lc_stOk" text="Pünktlich"/>
+        <text name="lc_stOverdue" text="Überfällig %d/%d"/>
+        <text name="lc_unsecuredShort" text="Ungesichert"/>
+        <text name="lc_principal" text="Geliehen"/>
+        <text name="lc_interestOwed" text="Offene Zinsen und Gebühren"/>
+        <text name="lc_missedTotal" text="Verpasste Raten"/>
+        <text name="lc_payoffFee" text="Vorfälligkeitsgebühr"/>
+        <text name="lc_payOverdue" text="Überfälliges zahlen %s"/>
+        <text name="lc_payExtra" text="%s zahlen"/>
+        <text name="lc_payOff" text="Ablösen %s"/>
+        <text name="lc_typeTerm" text="Ratenkredit"/>
+        <text name="lc_typeEquip" text="Maschinenkredit"/>
+        <text name="lc_typeLand" text="Hypothek"/>
+        <text name="lc_desc1" text="Ungesichert. Höchster Zins, Limit hängt von deiner Bonität ab."/>
+        <text name="lc_desc2" text="Gesichert durch ein eigenes Fahrzeug. Bei Ausfall kann es gepfändet werden."/>
+        <text name="lc_desc3" text="Gesichert durch eigenes Land. Niedrigster Zins, längste Laufzeiten."/>
+        <text name="lc_noCollateral" text="Keine Sicherheit nötig"/>
+        <text name="lc_termInfo" text="Dein Limit wächst mit deiner Bonität. Zahle pünktlich, um es zu erhöhen."/>
+        <text name="lc_pickVehicle" text="Fahrzeug als Sicherheit wählen"/>
+        <text name="lc_pickLand" text="Land als Sicherheit wählen"/>
+        <text name="lc_noVehicles" text="Du besitzt keine Fahrzeuge, die als Sicherheit dienen können."/>
+        <text name="lc_noLand" text="Du besitzt kein Land."/>
+        <text name="lc_pledged" text="Verpfändet"/>
+        <text name="lc_amount" text="Betrag"/>
+        <text name="lc_max" text="Max"/>
+        <text name="lc_maxAmount" text="Bis zu %s"/>
+        <text name="lc_term" text="Laufzeit"/>
+        <text name="lc_rate" text="Zinssatz (jährlich)"/>
+        <text name="lc_monthlyPayment" text="Monatsrate"/>
+        <text name="lc_totalInterest" text="Zinsen gesamt"/>
+        <text name="lc_totalRepaid" text="Gesamt zurückgezahlt"/>
+        <text name="lc_sign" text="Kredit unterschreiben"/>
+        <text name="lc_grpPenalties" text="Verpasste Raten (über Vorgaben)"/>
+        <text name="lc_grpLending" text="Kreditvergabe"/>
+        <text name="lc_on" text="An"/>
+        <text name="lc_off" text="Aus"/>
+        <text name="lc_monthsN" text="%d Monate"/>
+        <text name="lc_years" text="%d Jahre"/>
+        <text name="lc_preset" text="Strafen: %s"/>
+        <text name="lc_p_lenient" text="Nachsichtig"/>
+        <text name="lc_p_normal" text="Normal"/>
+        <text name="lc_p_strict" text="Streng"/>
+        <text name="lc_p_custom" text="Eigene"/>
+        <text name="lc_reset" text="Standard wiederherstellen"/>
+        <text name="lc_resetConfirm" text="Zum Bestätigen erneut klicken"/>
+        <text name="lc_hostOnly" text="Nur der Host kann diese Einstellungen ändern."/>
+        <text name="lc_s_lateFeePct" text="Mahngebühr (% der verpassten Rate)"/>
+        <text name="lc_s_missHit" text="Bonitätsverlust pro verpasster Rate"/>
+        <text name="lc_s_missesToDefault" text="Verpasste Raten in Folge bis zum Ausfall"/>
+        <text name="lc_s_defaultHit" text="Bonitätsverlust bei Ausfall"/>
+        <text name="lc_s_blockMonths" text="Keine neuen Kredite nach Ausfall für"/>
+        <text name="lc_s_recoveryPct" text="Gutgeschriebener Wert bei Beschlagnahme"/>
+        <text name="lc_s_repossess" text="Sicherheit bei Ausfall beschlagnahmen"/>
+        <text name="lc_s_aprTerm" text="Grundzins: Ratenkredite"/>
+        <text name="lc_s_aprEquip" text="Grundzins: Maschinenkredite"/>
+        <text name="lc_s_aprLand" text="Grundzins: Hypotheken"/>
+        <text name="lc_s_scoreSpread" text="Zinsänderung pro 50 Punkte Abstand zu 700"/>
+        <text name="lc_s_termLimit" text="Ungesichertes Limit bei Bonität 700"/>
+        <text name="lc_s_ltvEquip" text="Max. Kredit im Verhältnis zum Fahrzeugwert"/>
+        <text name="lc_s_ltvLand" text="Max. Kredit im Verhältnis zum Landwert"/>
+        <text name="lc_s_minScore" text="Mindestbonität für Kredite"/>
+        <text name="lc_s_startScore" text="Startbonität für neue Höfe"/>
+        <text name="lc_s_onTimeGain" text="Bonitätsplus pro pünktlicher Rate"/>
+        <text name="lc_s_paidOffGain" text="Bonitätsplus bei abbezahltem Kredit"/>
+        <text name="lc_s_convertApr" text="Zinsaufschlag bei verkaufter Sicherheit"/>
+        <text name="lc_s_prepayFeePct" text="Vorfälligkeitsgebühr"/>
+        <text name="lc_s_maxLoans" text="Max. laufende Kredite pro Hof"/>
+        <text name="lc_s_blockBaseLoan" text="Kredit des Grundspiels deaktivieren"/>
+        <text name="lc_farmlandName" text="Grundstück %d"/>
+        <text name="lc_formerly" text="war %s"/>
+        <text name="lc_nTaken" text="Kredit genehmigt: %AMOUNT% wurden deinem Konto gutgeschrieben."/>
+        <text name="lc_nPayments" text="Kreditraten eingezogen: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Kreditrate von %AMOUNT% verpasst! Noch %LABEL% bis zum Ausfall."/>
+        <text name="lc_nDefault" text="Kredit ausgefallen (%LABEL%). %AMOUNT% wurden deinem Konto belastet."/>
+        <text name="lc_nPaidOff" text="Kredit abbezahlt (%LABEL%). Deine Bonität ist gestiegen."/>
+        <text name="lc_nRepo" text="Die Bank hat %LABEL% gepfändet und %AMOUNT% gutgeschrieben."/>
+        <text name="lc_nSeize" text="Die Bank hat %LABEL% beschlagnahmt und %AMOUNT% gutgeschrieben."/>
+        <text name="lc_nConverted" text="Die Sicherheit %LABEL% ist weg. Der Kredit ist jetzt ungesichert, mit höherem Zins."/>
+        <text name="lc_nBaseBlocked" text="Der Kredit des Grundspiels ist deaktiviert. Nutze Kredite Und Bonität (Strg+B)."/>
+        <text name="lc_nExtra" text="Sondertilgung von %AMOUNT% geleistet."/>
+        <text name="lc_nOverdue" text="Überfälliger Betrag von %AMOUNT% bezahlt."/>
+        <text name="lc_eScore" text="Deine Bonität ist zu niedrig für einen Kredit."/>
+        <text name="lc_eBlocked" text="Nach einem kürzlichen Ausfall kannst du keinen Kredit aufnehmen."/>
+        <text name="lc_eLimit" text="Dieser Betrag liegt über deinem Limit."/>
+        <text name="lc_eCollateral" text="Wähle eine Sicherheit, die dir gehört."/>
+        <text name="lc_ePledged" text="Diese Sicherheit ist bereits verpfändet."/>
+        <text name="lc_eMoney" text="Nicht genug Geld auf deinem Konto."/>
+        <text name="lc_eMaxLoans" text="Du hast die maximale Anzahl an Krediten."/>
+        <text name="lc_eInvalid" text="Diese Anfrage konnte nicht bearbeitet werden."/>
+        <text name="lc_eHost" text="Nur der Host kann Einstellungen ändern."/>
+    </texts>
+</l10n>

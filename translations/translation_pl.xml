@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Kredyty I Zdolność Kredytowa: otwórz/zamknij menu"/>
+        <text name="lc_title" text="Kredyty I Zdolność Kredytowa"/>
+        <text name="lc_balance" text="Konto: %s"/>
+        <text name="lc_tabOverview" text="Przegląd"/>
+        <text name="lc_tabLoans" text="Moje kredyty"/>
+        <text name="lc_tabNew" text="Nowy kredyt"/>
+        <text name="lc_tabSettings" text="Ustawienia"/>
+        <text name="lc_tabAppearance" text="Wygląd"/>
+        <text name="lc_appStyle" text="Styl menu"/>
+        <text name="lc_appAccent" text="Kolor akcentu"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Jasność"/>
+        <text name="lc_appReset" text="Resetuj wygląd"/>
+        <text name="lc_appNote" text="Wygląd jest zapisany na tym komputerze i dotyczy tylko twojego menu."/>
+        <text name="lc_th1" text="Las"/>
+        <text name="lc_th2" text="Granat nocy"/>
+        <text name="lc_th3" text="Złoto żniw"/>
+        <text name="lc_th4" text="Czerwień stodoły"/>
+        <text name="lc_th5" text="Łupek"/>
+        <text name="lc_th6" text="Grafit i pomarańcz"/>
+        <text name="lc_th7" text="Zachód słońca"/>
+        <text name="lc_th8" text="Lawenda"/>
+        <text name="lc_th9" text="Morski"/>
+        <text name="lc_th10" text="Piasek pustyni"/>
+        <text name="lc_th11" text="Arktyka"/>
+        <text name="lc_th12" text="Wysoki kontrast"/>
+        <text name="lc_th13" text="Styl gry"/>
+        <text name="lc_noFarm" text="Dołącz do gospodarstwa, aby korzystać z kredytów."/>
+        <text name="lc_help" text="Ctrl+B / Esc: zamknij   Tab lub 1-5: karty   Góra/Dół: wybór   Lewo/Prawo: zmiana (Shift x10)   Enter: podpisz"/>
+        <text name="lc_help2" text="Ctrl+S: zapisz grę   Ctrl+Q: menu główne   Ctrl+X: wyjdź do pulpitu (naciśnij dwa razy)"/>
+        <text name="lc_btnSave" text="Zapisz"/>
+        <text name="lc_btnQuitMenu" text="Menu główne"/>
+        <text name="lc_btnQuitDesktop" text="Pulpit"/>
+        <text name="lc_btnConfirm" text="Jeszcze raz, by wyjść"/>
+        <text name="lc_nSaved" text="Gra zapisana."/>
+        <text name="input_LC_SAVE_GAME" text="Menu Kredyty I Zdolność Kredytowa: zapisz grę"/>
+        <text name="input_LC_QUIT_MENU" text="Menu Kredyty I Zdolność Kredytowa: wyjdź do menu głównego"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Menu Kredyty I Zdolność Kredytowa: wyjdź do pulpitu"/>
+        <text name="lc_creditScore" text="Ocena kredytowa"/>
+        <text name="lc_r_poor" text="Słaba"/>
+        <text name="lc_r_fair" text="Przeciętna"/>
+        <text name="lc_r_good" text="Dobra"/>
+        <text name="lc_r_veryGood" text="Bardzo dobra"/>
+        <text name="lc_r_excellent" text="Doskonała"/>
+        <text name="lc_rateTerm" text="Oprocentowanie kredytu ratalnego"/>
+        <text name="lc_rateEquip" text="Oprocentowanie kredytu na sprzęt"/>
+        <text name="lc_rateLand" text="Oprocentowanie hipoteki"/>
+        <text name="lc_unsecured" text="Niezabezpieczone użyte / limit"/>
+        <text name="lc_totalDebt" text="Całkowity dług"/>
+        <text name="lc_monthlyTotal" text="Raty miesięcznie"/>
+        <text name="lc_overdue" text="Zaległe"/>
+        <text name="lc_statusOk" text="Możesz brać nowe kredyty."/>
+        <text name="lc_statusBlocked" text="Nowe kredyty zablokowane jeszcze przez %d mies."/>
+        <text name="lc_baseNote" text="Kredyt z gry podstawowej jest wyłączony. Stary możesz nadal spłacić w Finansach."/>
+        <text name="lc_history" text="Historia kredytowa"/>
+        <text name="lc_noHistory" text="Jeszcze nic."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="Pożyczono %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h2" text="Raty miesięczne: %AMOUNT%"/>
+        <text name="lc_h3" text="Niezapłacona rata %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h4" text="Niewypłacalność, obciążono %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h5" text="Spłacono kredyt %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h6" text="Zajęto %LABEL%, uznano %AMOUNT%"/>
+        <text name="lc_h7" text="Przejęto %LABEL%, uznano %AMOUNT%"/>
+        <text name="lc_h8" text="Zabezpieczenie utracone, teraz niezabezpieczony (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Dodatkowa wpłata %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Zapłacono zaległość %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Stary kredyt z gry podstawowej %AMOUNT% przeniesiony tutaj"/>
+        <text name="lc_nRolled" text="Twój kredyt z gry podstawowej (%AMOUNT%) przeniesiono do Kredyty I Zdolność Kredytowa. Wybierz okres w oknie lub w Moje kredyty."/>
+        <text name="lc_nTermSet" text="Okres ustalony. Twoja rata miesięczna wynosi teraz %AMOUNT%."/>
+        <text name="lc_h14" text="Okres przeniesionego kredytu: %LABEL%, %AMOUNT% miesięcznie"/>
+        <text name="lc_chooseTerm" text="Wybierz okres"/>
+        <text name="lc_popTitle" text="Kredyt z gry podstawowej przeniesiony"/>
+        <text name="lc_popAmount" text="Przeniesiona kwota"/>
+        <text name="lc_popBody" text="Kredyty I Zdolność Kredytowa spłaciły twój kredyt z gry podstawowej. Teraz jesteś winien tę samą kwotę tutaj jako kredyt ratalny. Na twoje konto nie dodano ani z niego nie pobrano pieniędzy. Wybierz, jak długo chcesz go spłacać."/>
+        <text name="lc_popTerm" text="Spłata przez"/>
+        <text name="lc_popConfirm" text="Potwierdź okres"/>
+        <text name="lc_popLater" text="Zdecyduj później"/>
+        <text name="lc_popLaterNote" text="Zdecyduj później zachowuje na razie %s. Do potwierdzenia możesz to zmienić w Moje kredyty."/>
+        <text name="lc_baseLoanLabel" text="Stary kredyt z gry podstawowej"/>
+        <text name="lc_s_rollBaseLoan" text="Przenieś istniejące kredyty z gry podstawowej do tego moda"/>
+        <text name="lc_s_rollMonths" text="Okres przeniesionego kredytu z gry podstawowej"/>
+        <text name="lc_noLoans" text="Nie masz aktywnych kredytów."/>
+        <text name="lc_colType" text="Rodzaj"/>
+        <text name="lc_colCollateral" text="Zabezpieczenie"/>
+        <text name="lc_colBalance" text="Saldo"/>
+        <text name="lc_colRate" text="Oproc."/>
+        <text name="lc_colMonthly" text="Miesięcznie"/>
+        <text name="lc_colLeft" text="Zostało"/>
+        <text name="lc_colStatus" text="Status"/>
+        <text name="lc_stOk" text="Terminowo"/>
+        <text name="lc_stOverdue" text="Zaległe %d/%d"/>
+        <text name="lc_unsecuredShort" text="Niezabezpieczony"/>
+        <text name="lc_principal" text="Pożyczono"/>
+        <text name="lc_interestOwed" text="Należne odsetki i opłaty"/>
+        <text name="lc_missedTotal" text="Niezapłacone raty"/>
+        <text name="lc_payoffFee" text="Opłata za wcześniejszą spłatę"/>
+        <text name="lc_payOverdue" text="Zapłać zaległość %s"/>
+        <text name="lc_payExtra" text="Zapłać %s"/>
+        <text name="lc_payOff" text="Spłać %s"/>
+        <text name="lc_typeTerm" text="Kredyt ratalny"/>
+        <text name="lc_typeEquip" text="Kredyt na sprzęt"/>
+        <text name="lc_typeLand" text="Hipoteka"/>
+        <text name="lc_desc1" text="Niezabezpieczony. Najwyższe oprocentowanie, limit zależy od oceny kredytowej."/>
+        <text name="lc_desc2" text="Zabezpieczony twoim pojazdem. Przy niewypłacalności może zostać zajęty."/>
+        <text name="lc_desc3" text="Zabezpieczony twoją ziemią. Najniższe oprocentowanie, najdłuższe okresy."/>
+        <text name="lc_noCollateral" text="Zabezpieczenie niepotrzebne"/>
+        <text name="lc_termInfo" text="Twój limit rośnie wraz z oceną kredytową. Płać terminowo, aby go zwiększyć."/>
+        <text name="lc_pickVehicle" text="Wybierz pojazd jako zabezpieczenie"/>
+        <text name="lc_pickLand" text="Wybierz ziemię jako zabezpieczenie"/>
+        <text name="lc_noVehicles" text="Nie masz pojazdów, które mogą być zabezpieczeniem."/>
+        <text name="lc_noLand" text="Nie masz żadnej ziemi."/>
+        <text name="lc_pledged" text="Zastawiony"/>
+        <text name="lc_amount" text="Kwota"/>
+        <text name="lc_max" text="Maks"/>
+        <text name="lc_maxAmount" text="Do %s"/>
+        <text name="lc_term" text="Okres"/>
+        <text name="lc_rate" text="Oprocentowanie (roczne)"/>
+        <text name="lc_monthlyPayment" text="Rata miesięczna"/>
+        <text name="lc_totalInterest" text="Odsetki łącznie"/>
+        <text name="lc_totalRepaid" text="Łącznie do spłaty"/>
+        <text name="lc_sign" text="Podpisz kredyt"/>
+        <text name="lc_grpPenalties" text="Niezapłacone raty (z ustawień wstępnych)"/>
+        <text name="lc_grpLending" text="Udzielanie kredytów"/>
+        <text name="lc_on" text="Wł."/>
+        <text name="lc_off" text="Wył."/>
+        <text name="lc_monthsN" text="%d mies."/>
+        <text name="lc_years" text="%d lat"/>
+        <text name="lc_preset" text="Kary: %s"/>
+        <text name="lc_p_lenient" text="Łagodne"/>
+        <text name="lc_p_normal" text="Normalne"/>
+        <text name="lc_p_strict" text="Surowe"/>
+        <text name="lc_p_custom" text="Własne"/>
+        <text name="lc_reset" text="Przywróć domyślne"/>
+        <text name="lc_resetConfirm" text="Kliknij ponownie, aby potwierdzić"/>
+        <text name="lc_hostOnly" text="Tylko gospodarz może zmieniać te ustawienia."/>
+        <text name="lc_s_lateFeePct" text="Opłata za zwłokę (% niezapłaconej raty)"/>
+        <text name="lc_s_missHit" text="Utrata punktów za niezapłaconą ratę"/>
+        <text name="lc_s_missesToDefault" text="Niezapłacone raty z rzędu do niewypłacalności"/>
+        <text name="lc_s_defaultHit" text="Utrata punktów przy niewypłacalności"/>
+        <text name="lc_s_blockMonths" text="Brak nowych kredytów po niewypłacalności przez"/>
+        <text name="lc_s_recoveryPct" text="Wartość zabezpieczenia uznana przy przejęciu"/>
+        <text name="lc_s_repossess" text="Przejmij zabezpieczenie przy niewypłacalności"/>
+        <text name="lc_s_aprTerm" text="Stopa bazowa: kredyty ratalne"/>
+        <text name="lc_s_aprEquip" text="Stopa bazowa: kredyty na sprzęt"/>
+        <text name="lc_s_aprLand" text="Stopa bazowa: hipoteki"/>
+        <text name="lc_s_scoreSpread" text="Zmiana oprocentowania na 50 punktów od 700"/>
+        <text name="lc_s_termLimit" text="Limit niezabezpieczony przy ocenie 700"/>
+        <text name="lc_s_ltvEquip" text="Maks. kredyt względem wartości pojazdu"/>
+        <text name="lc_s_ltvLand" text="Maks. kredyt względem wartości ziemi"/>
+        <text name="lc_s_minScore" text="Minimalna ocena do kredytu"/>
+        <text name="lc_s_startScore" text="Ocena startowa nowych gospodarstw"/>
+        <text name="lc_s_onTimeGain" text="Punkty za terminową ratę"/>
+        <text name="lc_s_paidOffGain" text="Punkty za spłacony kredyt"/>
+        <text name="lc_s_convertApr" text="Dodatkowe oprocentowanie po sprzedaży zabezpieczenia"/>
+        <text name="lc_s_prepayFeePct" text="Opłata za wcześniejszą spłatę"/>
+        <text name="lc_s_maxLoans" text="Maks. aktywnych kredytów na gospodarstwo"/>
+        <text name="lc_s_blockBaseLoan" text="Wyłącz kredyt z gry podstawowej"/>
+        <text name="lc_farmlandName" text="Działka %d"/>
+        <text name="lc_formerly" text="był %s"/>
+        <text name="lc_nTaken" text="Kredyt przyznany: %AMOUNT% wpłacono na twoje konto."/>
+        <text name="lc_nPayments" text="Pobrano raty kredytów: %AMOUNT%."/>
+        <text name="lc_nMissed" text="Niezapłacona rata %AMOUNT%! Jeszcze %LABEL% do niewypłacalności."/>
+        <text name="lc_nDefault" text="Kredyt niespłacony (%LABEL%). Obciążono twoje konto kwotą %AMOUNT%."/>
+        <text name="lc_nPaidOff" text="Kredyt spłacony (%LABEL%). Twoja ocena kredytowa wzrosła."/>
+        <text name="lc_nRepo" text="Bank zajął %LABEL% i uznał %AMOUNT%."/>
+        <text name="lc_nSeize" text="Bank przejął %LABEL% i uznał %AMOUNT%."/>
+        <text name="lc_nConverted" text="Zabezpieczenia %LABEL% już nie ma. Kredyt jest teraz niezabezpieczony i droższy."/>
+        <text name="lc_nBaseBlocked" text="Kredyt z gry podstawowej jest wyłączony. Użyj Kredyty I Zdolność Kredytowa (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Wpłacono dodatkowo %AMOUNT%."/>
+        <text name="lc_nOverdue" text="Zapłacono zaległość %AMOUNT%."/>
+        <text name="lc_eScore" text="Twoja ocena kredytowa jest za niska na kredyt."/>
+        <text name="lc_eBlocked" text="Nie możesz pożyczać po niedawnej niewypłacalności."/>
+        <text name="lc_eLimit" text="Ta kwota przekracza twój limit."/>
+        <text name="lc_eCollateral" text="Wybierz zabezpieczenie, które do ciebie należy."/>
+        <text name="lc_ePledged" text="To zabezpieczenie jest już zastawione."/>
+        <text name="lc_eMoney" text="Za mało pieniędzy na koncie."/>
+        <text name="lc_eMaxLoans" text="Masz maksymalną liczbę kredytów."/>
+        <text name="lc_eInvalid" text="Nie udało się przetworzyć żądania."/>
+        <text name="lc_eHost" text="Tylko gospodarz może zmieniać ustawienia."/>
+    </texts>
+</l10n>

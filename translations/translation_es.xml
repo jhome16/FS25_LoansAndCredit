@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="input_LC_OPEN_MENU" text="Préstamos Y Crédito: abrir/cerrar menú"/>
+        <text name="lc_title" text="Préstamos Y Crédito"/>
+        <text name="lc_balance" text="Cuenta: %s"/>
+        <text name="lc_tabOverview" text="Resumen"/>
+        <text name="lc_tabLoans" text="Mis préstamos"/>
+        <text name="lc_tabNew" text="Nuevo préstamo"/>
+        <text name="lc_tabSettings" text="Ajustes"/>
+        <text name="lc_tabAppearance" text="Apariencia"/>
+        <text name="lc_appStyle" text="Estilo del menú"/>
+        <text name="lc_appAccent" text="Color de acento"/>
+        <text name="lc_appAuto" text="Auto"/>
+        <text name="lc_appBright" text="Brillo"/>
+        <text name="lc_appReset" text="Restablecer apariencia"/>
+        <text name="lc_appNote" text="La apariencia se guarda en este ordenador y solo afecta a tu propio menú."/>
+        <text name="lc_th1" text="Bosque"/>
+        <text name="lc_th2" text="Azul medianoche"/>
+        <text name="lc_th3" text="Oro de cosecha"/>
+        <text name="lc_th4" text="Rojo granero"/>
+        <text name="lc_th5" text="Pizarra"/>
+        <text name="lc_th6" text="Carbón y naranja"/>
+        <text name="lc_th7" text="Atardecer"/>
+        <text name="lc_th8" text="Lavanda"/>
+        <text name="lc_th9" text="Verde azulado"/>
+        <text name="lc_th10" text="Arena del desierto"/>
+        <text name="lc_th11" text="Ártico"/>
+        <text name="lc_th12" text="Alto contraste"/>
+        <text name="lc_th13" text="Estilo del juego"/>
+        <text name="lc_noFarm" text="Únete a una granja para usar préstamos."/>
+        <text name="lc_help" text="Ctrl+B / Esc: cerrar   Tab o 1-5: pestañas   Arriba/Abajo: elegir   Izq./Der.: ajustar (Mayús x10)   Intro: firmar"/>
+        <text name="lc_help2" text="Ctrl+S: guardar   Ctrl+Q: menú principal   Ctrl+X: salir al escritorio (pulsa dos veces para salir)"/>
+        <text name="lc_btnSave" text="Guardar"/>
+        <text name="lc_btnQuitMenu" text="Menú principal"/>
+        <text name="lc_btnQuitDesktop" text="Escritorio"/>
+        <text name="lc_btnConfirm" text="Otra vez para salir"/>
+        <text name="lc_nSaved" text="Partida guardada."/>
+        <text name="input_LC_SAVE_GAME" text="Menú Préstamos Y Crédito: guardar partida"/>
+        <text name="input_LC_QUIT_MENU" text="Menú Préstamos Y Crédito: salir al menú principal"/>
+        <text name="input_LC_QUIT_DESKTOP" text="Menú Préstamos Y Crédito: salir al escritorio"/>
+        <text name="lc_creditScore" text="Puntuación de crédito"/>
+        <text name="lc_r_poor" text="Mala"/>
+        <text name="lc_r_fair" text="Regular"/>
+        <text name="lc_r_good" text="Buena"/>
+        <text name="lc_r_veryGood" text="Muy buena"/>
+        <text name="lc_r_excellent" text="Excelente"/>
+        <text name="lc_rateTerm" text="Interés préstamo a plazo"/>
+        <text name="lc_rateEquip" text="Interés préstamo de equipo"/>
+        <text name="lc_rateLand" text="Interés hipoteca"/>
+        <text name="lc_unsecured" text="Sin garantía usado / límite"/>
+        <text name="lc_totalDebt" text="Deuda total"/>
+        <text name="lc_monthlyTotal" text="Pagos al mes"/>
+        <text name="lc_overdue" text="Vencido"/>
+        <text name="lc_statusOk" text="Puedes pedir nuevos préstamos."/>
+        <text name="lc_statusBlocked" text="Bloqueado para nuevos préstamos %d mes(es) más."/>
+        <text name="lc_baseNote" text="El préstamo del juego base está desactivado. Aún puedes devolver uno antiguo en Finanzas."/>
+        <text name="lc_history" text="Historial de crédito"/>
+        <text name="lc_noHistory" text="Nada todavía."/>
+        <text name="lc_monthShort" text="M%d"/>
+        <text name="lc_h1" text="Pedido %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h2" text="Pagos mensuales: %AMOUNT%"/>
+        <text name="lc_h3" text="Pago de %AMOUNT% no realizado (%LABEL%)"/>
+        <text name="lc_h4" text="Impago, %AMOUNT% cargados (%LABEL%)"/>
+        <text name="lc_h5" text="Préstamo de %AMOUNT% pagado (%LABEL%)"/>
+        <text name="lc_h6" text="%LABEL% embargado, %AMOUNT% abonados"/>
+        <text name="lc_h7" text="%LABEL% incautado, %AMOUNT% abonados"/>
+        <text name="lc_h8" text="Garantía perdida, ahora sin garantía (%LABEL%)"/>
+        <text name="lc_h9" text=""/>
+        <text name="lc_h11" text="Pago extra %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h12" text="Vencido pagado %AMOUNT% (%LABEL%)"/>
+        <text name="lc_h13" text="Antiguo préstamo del juego base de %AMOUNT% trasladado aquí"/>
+        <text name="lc_nRolled" text="Tu préstamo del juego base de %AMOUNT% se ha transferido a Préstamos Y Crédito. Elige su plazo en la ventana o en Mis préstamos."/>
+        <text name="lc_nTermSet" text="Plazo fijado. Tu pago mensual ahora es de %AMOUNT%."/>
+        <text name="lc_h14" text="Plazo del préstamo trasladado: %LABEL%, %AMOUNT% al mes"/>
+        <text name="lc_chooseTerm" text="Elegir plazo"/>
+        <text name="lc_popTitle" text="Préstamo del juego base transferido"/>
+        <text name="lc_popAmount" text="Importe transferido"/>
+        <text name="lc_popBody" text="Préstamos Y Crédito ha saldado tu préstamo del juego base. Ahora debes la misma cantidad aquí como préstamo a plazo. No se ha añadido ni quitado dinero de tu cuenta. Elige en cuánto tiempo quieres devolverlo."/>
+        <text name="lc_popTerm" text="Devolver en"/>
+        <text name="lc_popConfirm" text="Confirmar plazo"/>
+        <text name="lc_popLater" text="Decidir más tarde"/>
+        <text name="lc_popLaterNote" text="Decidir más tarde mantiene %s por ahora. Hasta que confirmes, puedes cambiarlo en Mis préstamos."/>
+        <text name="lc_baseLoanLabel" text="Antiguo préstamo del juego base"/>
+        <text name="lc_s_rollBaseLoan" text="Trasladar préstamos del juego base a este mod"/>
+        <text name="lc_s_rollMonths" text="Plazo de un préstamo del juego base trasladado"/>
+        <text name="lc_noLoans" text="No tienes préstamos activos."/>
+        <text name="lc_colType" text="Tipo"/>
+        <text name="lc_colCollateral" text="Garantía"/>
+        <text name="lc_colBalance" text="Saldo"/>
+        <text name="lc_colRate" text="Interés"/>
+        <text name="lc_colMonthly" text="Mensual"/>
+        <text name="lc_colLeft" text="Restan"/>
+        <text name="lc_colStatus" text="Estado"/>
+        <text name="lc_stOk" text="Al día"/>
+        <text name="lc_stOverdue" text="Vencido %d/%d"/>
+        <text name="lc_unsecuredShort" text="Sin garantía"/>
+        <text name="lc_principal" text="Prestado"/>
+        <text name="lc_interestOwed" text="Intereses y comisiones pendientes"/>
+        <text name="lc_missedTotal" text="Pagos no realizados"/>
+        <text name="lc_payoffFee" text="Comisión por amortización anticipada"/>
+        <text name="lc_payOverdue" text="Pagar vencido %s"/>
+        <text name="lc_payExtra" text="Pagar %s"/>
+        <text name="lc_payOff" text="Liquidar %s"/>
+        <text name="lc_typeTerm" text="Préstamo a plazo"/>
+        <text name="lc_typeEquip" text="Préstamo de equipo"/>
+        <text name="lc_typeLand" text="Hipoteca"/>
+        <text name="lc_desc1" text="Sin garantía. Interés más alto, límite según tu puntuación de crédito."/>
+        <text name="lc_desc2" text="Garantizado con un vehículo tuyo. Puede ser embargado si hay impago."/>
+        <text name="lc_desc3" text="Garantizado con terreno tuyo. Interés más bajo, plazos más largos."/>
+        <text name="lc_noCollateral" text="No se necesita garantía"/>
+        <text name="lc_termInfo" text="Tu límite crece con tu puntuación de crédito. Paga a tiempo para subirlo."/>
+        <text name="lc_pickVehicle" text="Elige un vehículo como garantía"/>
+        <text name="lc_pickLand" text="Elige un terreno como garantía"/>
+        <text name="lc_noVehicles" text="No tienes vehículos que puedan servir de garantía."/>
+        <text name="lc_noLand" text="No tienes terrenos."/>
+        <text name="lc_pledged" text="Comprometido"/>
+        <text name="lc_amount" text="Importe"/>
+        <text name="lc_max" text="Máx"/>
+        <text name="lc_maxAmount" text="Hasta %s"/>
+        <text name="lc_term" text="Plazo"/>
+        <text name="lc_rate" text="Tipo de interés (anual)"/>
+        <text name="lc_monthlyPayment" text="Pago mensual"/>
+        <text name="lc_totalInterest" text="Intereses totales"/>
+        <text name="lc_totalRepaid" text="Total devuelto"/>
+        <text name="lc_sign" text="Firmar préstamo"/>
+        <text name="lc_grpPenalties" text="Pagos no realizados (según preajuste)"/>
+        <text name="lc_grpLending" text="Préstamos"/>
+        <text name="lc_on" text="Sí"/>
+        <text name="lc_off" text="No"/>
+        <text name="lc_monthsN" text="%d meses"/>
+        <text name="lc_years" text="%d años"/>
+        <text name="lc_preset" text="Penalizaciones: %s"/>
+        <text name="lc_p_lenient" text="Indulgente"/>
+        <text name="lc_p_normal" text="Normal"/>
+        <text name="lc_p_strict" text="Estricto"/>
+        <text name="lc_p_custom" text="Personal"/>
+        <text name="lc_reset" text="Restaurar valores"/>
+        <text name="lc_resetConfirm" text="Pulsa otra vez para confirmar"/>
+        <text name="lc_hostOnly" text="Solo el anfitrión puede cambiar estos ajustes."/>
+        <text name="lc_s_lateFeePct" text="Recargo por retraso (% del pago no realizado)"/>
+        <text name="lc_s_missHit" text="Puntos perdidos por pago no realizado"/>
+        <text name="lc_s_missesToDefault" text="Pagos no realizados seguidos antes del impago"/>
+        <text name="lc_s_defaultHit" text="Puntos perdidos por impago"/>
+        <text name="lc_s_blockMonths" text="Sin préstamos nuevos tras un impago durante"/>
+        <text name="lc_s_recoveryPct" text="Valor de garantía abonado al incautar"/>
+        <text name="lc_s_repossess" text="Incautar la garantía en caso de impago"/>
+        <text name="lc_s_aprTerm" text="Interés base: préstamos a plazo"/>
+        <text name="lc_s_aprEquip" text="Interés base: préstamos de equipo"/>
+        <text name="lc_s_aprLand" text="Interés base: hipotecas"/>
+        <text name="lc_s_scoreSpread" text="Cambio de interés por cada 50 puntos respecto a 700"/>
+        <text name="lc_s_termLimit" text="Límite sin garantía con 700 puntos"/>
+        <text name="lc_s_ltvEquip" text="Préstamo máx. frente al valor del vehículo"/>
+        <text name="lc_s_ltvLand" text="Préstamo máx. frente al valor del terreno"/>
+        <text name="lc_s_minScore" text="Puntuación mínima para pedir prestado"/>
+        <text name="lc_s_startScore" text="Puntuación inicial de granjas nuevas"/>
+        <text name="lc_s_onTimeGain" text="Puntos ganados por pago puntual"/>
+        <text name="lc_s_paidOffGain" text="Puntos ganados al saldar un préstamo"/>
+        <text name="lc_s_convertApr" text="Interés extra si se vende la garantía"/>
+        <text name="lc_s_prepayFeePct" text="Comisión por amortización anticipada"/>
+        <text name="lc_s_maxLoans" text="Préstamos activos máx. por granja"/>
+        <text name="lc_s_blockBaseLoan" text="Desactivar el préstamo del juego base"/>
+        <text name="lc_farmlandName" text="Terreno %d"/>
+        <text name="lc_formerly" text="antes %s"/>
+        <text name="lc_nTaken" text="Préstamo aprobado: %AMOUNT% ingresados en tu cuenta."/>
+        <text name="lc_nPayments" text="Pagos de préstamos cobrados: %AMOUNT%."/>
+        <text name="lc_nMissed" text="¡Pago de préstamo de %AMOUNT% no realizado! Quedan %LABEL% antes del impago."/>
+        <text name="lc_nDefault" text="Préstamo impagado (%LABEL%). %AMOUNT% cargados en tu cuenta."/>
+        <text name="lc_nPaidOff" text="Préstamo saldado (%LABEL%). Tu puntuación de crédito ha subido."/>
+        <text name="lc_nRepo" text="El banco ha embargado %LABEL% y abonado %AMOUNT%."/>
+        <text name="lc_nSeize" text="El banco ha incautado %LABEL% y abonado %AMOUNT%."/>
+        <text name="lc_nConverted" text="La garantía %LABEL% ya no está. El préstamo ahora no tiene garantía y su interés es mayor."/>
+        <text name="lc_nBaseBlocked" text="El préstamo del juego base está desactivado. Usa Préstamos Y Crédito (Ctrl+B)."/>
+        <text name="lc_nExtra" text="Pago extra de %AMOUNT% realizado."/>
+        <text name="lc_nOverdue" text="Importe vencido de %AMOUNT% pagado."/>
+        <text name="lc_eScore" text="Tu puntuación de crédito es demasiado baja para pedir prestado."/>
+        <text name="lc_eBlocked" text="No puedes pedir prestado tras un impago reciente."/>
+        <text name="lc_eLimit" text="Ese importe supera tu límite."/>
+        <text name="lc_eCollateral" text="Elige una garantía que te pertenezca."/>
+        <text name="lc_ePledged" text="Esa garantía ya está comprometida."/>
+        <text name="lc_eMoney" text="No hay suficiente dinero en tu cuenta."/>
+        <text name="lc_eMaxLoans" text="Tienes el número máximo de préstamos."/>
+        <text name="lc_eInvalid" text="No se ha podido procesar la solicitud."/>
+        <text name="lc_eHost" text="Solo el anfitrión puede cambiar los ajustes."/>
+    </texts>
+</l10n>
