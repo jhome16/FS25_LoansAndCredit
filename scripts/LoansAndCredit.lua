@@ -29,7 +29,7 @@ LC.ROLL_TERMS = { min = 12, max = 120, step = 12 }
 -- history / notification codes
 LC.CODE = {
     TAKEN = 1, PAYMENTS = 2, MISSED = 3, DEFAULT = 4, PAIDOFF = 5, REPO = 6, SEIZE = 7,
-    CONVERTED = 8, BASE_BLOCKED = 9, EXTRA = 11, OVERDUE_PAID = 12, ROLLED = 13, TERM_SET = 14, SAVED = 15,
+    CONVERTED = 8, BASE_BLOCKED = 9, EXTRA = 11, OVERDUE_PAID = 12, ROLLED = 13, TERM_SET = 14, SAVED = 15, SAVE_FAILED = 16, SAVE_WAIT = 17,
     ERR_SCORE = 20, ERR_BLOCKED = 21, ERR_LIMIT = 22, ERR_COLLATERAL = 23, ERR_PLEDGED = 24,
     ERR_MONEY = 25, ERR_MAXLOANS = 26, ERR_INVALID = 27, ERR_HOST = 28
 }
@@ -847,7 +847,7 @@ end
 
 LC.NOTIFY_TEXT = {
     [1] = "nTaken", [2] = "nPayments", [3] = "nMissed", [4] = "nDefault", [5] = "nPaidOff", [6] = "nRepo",
-    [7] = "nSeize", [8] = "nConverted", [9] = "nBaseBlocked", [11] = "nExtra", [12] = "nOverdue", [13] = "nRolled", [14] = "nTermSet", [15] = "nSaved",
+    [7] = "nSeize", [8] = "nConverted", [9] = "nBaseBlocked", [11] = "nExtra", [12] = "nOverdue", [13] = "nRolled", [14] = "nTermSet", [15] = "nSaved", [16] = "nSaveFailed", [17] = "nSaveWait",
     [20] = "eScore", [21] = "eBlocked", [22] = "eLimit", [23] = "eCollateral", [24] = "ePledged",
     [25] = "eMoney", [26] = "eMaxLoans", [27] = "eInvalid", [28] = "eHost"
 }
@@ -870,7 +870,8 @@ function LC:showNotification(code, amount, label)
     end
     local kind = FSBaseMission.INGAME_NOTIFICATION_OK
     if code == self.CODE.MISSED or code == self.CODE.DEFAULT or code == self.CODE.REPO or code == self.CODE.SEIZE
-        or code == self.CODE.CONVERTED or code >= 20 then
+        or code == self.CODE.CONVERTED or code == self.CODE.SAVE_FAILED or code == self.CODE.SAVE_WAIT
+        or code >= 20 then
         kind = FSBaseMission.INGAME_NOTIFICATION_CRITICAL
     elseif code == self.CODE.PAYMENTS or code == self.CODE.BASE_BLOCKED or code == self.CODE.ROLLED or code == self.CODE.TERM_SET then
         kind = FSBaseMission.INGAME_NOTIFICATION_INFO
@@ -1238,18 +1239,25 @@ end
 -- saving
 FSCareerMissionInfo.saveToXMLFile = Utils.appendedFunction(FSCareerMissionInfo.saveToXMLFile, function()
     LC:saveToXML()
-    if LC.loaded then
-        LCMenu:onGameSaved()
-    end
 end)
 
--- second signal that a save has finished (runs after the game's own save routine)
-if FSBaseMission ~= nil and FSBaseMission.saveSavegame ~= nil then
-    FSBaseMission.saveSavegame = Utils.appendedFunction(FSBaseMission.saveSavegame, function()
+-- Saving runs in the background and takes a moment. Every save (ours, the pause menu's or an autosave)
+-- marks the game as busy until the game reports it complete, so the menu can't quit in the middle of one.
+if FSBaseMission ~= nil and FSBaseMission.startSaveCurrentGame ~= nil then
+    FSBaseMission.startSaveCurrentGame = Utils.prependedFunction(FSBaseMission.startSaveCurrentGame, function()
         if LC.loaded then
-            LCMenu:onGameSaved()
+            LCMenu:onSaveStarted()
         end
     end)
+end
+if SavegameController ~= nil and SavegameController.onSaveComplete ~= nil then
+    SavegameController.onSaveComplete = Utils.appendedFunction(SavegameController.onSaveComplete,
+        function(_, errorCode)
+            if LC.loaded then
+                LCMenu:onSaveComplete(errorCode)
+            end
+        end)
+    LC.saveCompleteHooked = true
 end
 
 -- send the full state to players who join

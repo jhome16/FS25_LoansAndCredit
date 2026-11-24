@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Pulpit"/>
         <text name="lc_btnConfirm" text="Jeszcze raz, by wyjść"/>
         <text name="lc_nSaved" text="Gra zapisana."/>
+        <text name="lc_btnSaving" text="Zapisywanie..."/>
+        <text name="lc_nSaveFailed" text="Nie udało się zapisać gry. Sprawdź log.txt i spróbuj ponownie przed wyjściem."/>
+        <text name="lc_nSaveWait" text="Trwa zapisywanie. Poczekaj, aż się zakończy."/>
         <text name="input_LC_SAVE_GAME" text="Menu Kredyty I Zdolność Kredytowa: zapisz grę"/>
         <text name="input_LC_QUIT_MENU" text="Menu Kredyty I Zdolność Kredytowa: wyjdź do menu głównego"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Kredyty I Zdolność Kredytowa: wyjdź do pulpitu"/>

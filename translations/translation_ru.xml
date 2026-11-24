@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Рабочий стол"/>
         <text name="lc_btnConfirm" text="Ещё раз для выхода"/>
         <text name="lc_nSaved" text="Игра сохранена."/>
+        <text name="lc_btnSaving" text="Сохранение..."/>
+        <text name="lc_nSaveFailed" text="Не удалось сохранить игру. Проверь log.txt и попробуй ещё раз перед выходом."/>
+        <text name="lc_nSaveWait" text="Идёт сохранение. Дождись его окончания."/>
         <text name="input_LC_SAVE_GAME" text="Меню Кредиты И Кредитный Рейтинг: сохранить игру"/>
         <text name="input_LC_QUIT_MENU" text="Меню Кредиты И Кредитный Рейтинг: выйти в главное меню"/>
         <text name="input_LC_QUIT_DESKTOP" text="Меню Кредиты И Кредитный Рейтинг: выйти на рабочий стол"/>

@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Plocha"/>
         <text name="lc_btnConfirm" text="Znovu pro ukončení"/>
         <text name="lc_nSaved" text="Hra uložena."/>
+        <text name="lc_btnSaving" text="Ukládání..."/>
+        <text name="lc_nSaveFailed" text="Hru se nepodařilo uložit. Zkontroluj log.txt a zkus to znovu, než hru ukončíš."/>
+        <text name="lc_nSaveWait" text="Stále se ukládá. Počkej, až ukládání skončí."/>
         <text name="input_LC_SAVE_GAME" text="Menu Úvěry A Bonita: uložit hru"/>
         <text name="input_LC_QUIT_MENU" text="Menu Úvěry A Bonita: ukončit do hlavního menu"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Úvěry A Bonita: ukončit na plochu"/>

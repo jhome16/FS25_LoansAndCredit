@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Escritorio"/>
         <text name="lc_btnConfirm" text="Otra vez para salir"/>
         <text name="lc_nSaved" text="Partida guardada."/>
+        <text name="lc_btnSaving" text="Guardando..."/>
+        <text name="lc_nSaveFailed" text="No se ha podido guardar la partida. Revisa log.txt e inténtalo de nuevo antes de salir."/>
+        <text name="lc_nSaveWait" text="Todavía guardando. Espera a que termine el guardado."/>
         <text name="input_LC_SAVE_GAME" text="Menú Préstamos Y Crédito: guardar partida"/>
         <text name="input_LC_QUIT_MENU" text="Menú Préstamos Y Crédito: salir al menú principal"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menú Préstamos Y Crédito: salir al escritorio"/>

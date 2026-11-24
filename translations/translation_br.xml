@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Área de trabalho"/>
         <text name="lc_btnConfirm" text="De novo para sair"/>
         <text name="lc_nSaved" text="Jogo salvo."/>
+        <text name="lc_btnSaving" text="Salvando..."/>
+        <text name="lc_nSaveFailed" text="Não foi possível salvar o jogo. Verifique o log.txt e tente de novo antes de sair."/>
+        <text name="lc_nSaveWait" text="Ainda salvando. Espere o salvamento terminar."/>
         <text name="input_LC_SAVE_GAME" text="Menu Empréstimos E Crédito: salvar jogo"/>
         <text name="input_LC_QUIT_MENU" text="Menu Empréstimos E Crédito: sair para o menu principal"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Empréstimos E Crédito: sair para a área de trabalho"/>

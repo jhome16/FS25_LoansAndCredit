@@ -332,9 +332,10 @@ function M:drawPanel()
     -- save / quit
     local gx = px + 0.21
     local items = {
-        { cmd = "save", label = "btnSave", w = 0.065, enabled = self:canSave() },
-        { cmd = "quitMenu", label = "btnQuitMenu", w = 0.085, enabled = true },
-        { cmd = "quitDesktop", label = "btnQuitDesktop", w = 0.075, enabled = true }
+        { cmd = "save", label = self:isSaving() and "btnSaving" or "btnSave", w = 0.065,
+            enabled = self:canSave() and not self:isSaving() },
+        { cmd = "quitMenu", label = "btnQuitMenu", w = 0.085, enabled = not self:isSaving() },
+        { cmd = "quitDesktop", label = "btnQuitDesktop", w = 0.075, enabled = not self:isSaving() }
     }
     for _, it in ipairs(items) do
         local confirming = self:isConfirming(it.cmd)
@@ -1182,6 +1183,11 @@ function M:command(cmd)
         return
     end
     self.lastCmd, self.lastCmdTime = cmd, g_time
+    -- quitting or saving again while a save is still being written would leave the savegame half saved
+    if self:isSaving() then
+        LC:showNotification(LC.CODE.SAVE_WAIT, 0, "")
+        return
+    end
     if cmd == "save" then
         if self:canSave() then
             self.pendingCmd = "save"
@@ -1198,37 +1204,56 @@ function M:command(cmd)
     end
 end
 
-function M:onGameSaved()
-    if self.saveWatchStart ~= nil then
-        self.saveWrittenAt = g_time
+function M:onSaveStarted()
+    self.saveBusySince = g_time
+end
+
+function M:isSaving()
+    return self.saveBusySince ~= nil
+end
+
+function M:closeSavePopup()
+    if g_gui ~= nil and g_gui.closeDialogByName ~= nil then
+        g_gui:closeDialogByName("MessageDialog")
     end
 end
 
--- closes the "saving" popup 1.5 s after the save has been written, or after 30 s at the latest
-function M:updateSaveWatch()
-    if self.saveWatchStart == nil then
+-- the game reports the save as finished: only now is everything on disk
+function M:onSaveComplete(errorCode)
+    local ours = self.ownSave
+    self.saveBusySince = nil
+    self.ownSave = false
+    if not ours then
         return
     end
-    local written = self.saveWrittenAt ~= nil and g_time - self.saveWrittenAt > 1500
-    local timedOut = g_time - self.saveWatchStart > 30000
-    if not written and not timedOut then
-        return
-    end
-    self.saveWatchStart = nil
-    self.saveWrittenAt = nil
-    if g_gui ~= nil and g_gui.getIsDialogVisible ~= nil and g_gui:getIsDialogVisible() then
-        if g_gui.closeDialogByName ~= nil then
-            g_gui:closeDialogByName("MessageDialog")
-        end
-        if g_gui:getIsDialogVisible() and g_gui.closeAllDialogs ~= nil then
-            g_gui:closeAllDialogs()
-        end
-    end
-    if g_gui ~= nil and g_gui.getIsDialogVisible ~= nil and g_gui:getIsDialogVisible() then
-        Logging.warning("[LoansAndCredit] the saving popup could not be closed")
-    else
-        Logging.info("[LoansAndCredit] save finished, saving popup closed%s", timedOut and " (timeout)" or "")
+    self:closeSavePopup()
+    local ok = Savegame == nil or Savegame.ERROR_OK == nil or errorCode == Savegame.ERROR_OK
+    if ok then
+        Logging.info("[LoansAndCredit] save complete")
         LC:showNotification(LC.CODE.SAVED, 0, "")
+    else
+        Logging.warning("[LoansAndCredit] save failed, error code %s", tostring(errorCode))
+        LC:showNotification(LC.CODE.SAVE_FAILED, 0, "")
+    end
+end
+
+-- safety net only: if the game never reports the save as finished, stop waiting after a while
+function M:updateSaveWatch()
+    if self.saveBusySince == nil then
+        return
+    end
+    local limit = 180000
+    if not LC.saveCompleteHooked then
+        limit = 20000
+    end
+    if g_time - self.saveBusySince > limit then
+        Logging.warning("[LoansAndCredit] no save-complete signal after %d s, no longer waiting", limit / 1000)
+        local ours = self.ownSave
+        self.saveBusySince = nil
+        self.ownSave = false
+        if ours then
+            self:closeSavePopup()
+        end
     end
 end
 
@@ -1238,10 +1263,10 @@ function M:runCommand(cmd)
     if cmd == "save" then
         if mission.startSaveCurrentGame ~= nil then
             -- the game shows its "saving" popup but only its own pause menu closes it again,
-            -- so we watch for the save to finish and close the popup ourselves
-            self.saveWatchStart = g_time
-            self.saveWrittenAt = nil
-            mission:startSaveCurrentGame(false)
+            -- so it is closed in onSaveComplete once the save has really finished
+            self.ownSave = true
+            self.saveBusySince = g_time
+            mission:startSaveCurrentGame()
         elseif mission.saveSavegame ~= nil then
             mission:saveSavegame()
             LC:showNotification(LC.CODE.SAVED, 0, "")

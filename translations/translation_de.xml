@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Desktop"/>
         <text name="lc_btnConfirm" text="Nochmal zum Beenden"/>
         <text name="lc_nSaved" text="Spiel gespeichert."/>
+        <text name="lc_btnSaving" text="Speichert..."/>
+        <text name="lc_nSaveFailed" text="Das Spiel konnte nicht gespeichert werden. Prüfe log.txt und versuche es vor dem Beenden erneut."/>
+        <text name="lc_nSaveWait" text="Speichert noch. Warte, bis das Speichern fertig ist."/>
         <text name="input_LC_SAVE_GAME" text="Kredite Und Bonität Menü: Spiel speichern"/>
         <text name="input_LC_QUIT_MENU" text="Kredite Und Bonität Menü: zum Hauptmenü"/>
         <text name="input_LC_QUIT_DESKTOP" text="Kredite Und Bonität Menü: zum Desktop beenden"/>

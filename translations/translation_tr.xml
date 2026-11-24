@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Masaüstü"/>
         <text name="lc_btnConfirm" text="Çıkmak için tekrar"/>
         <text name="lc_nSaved" text="Oyun kaydedildi."/>
+        <text name="lc_btnSaving" text="Kaydediliyor..."/>
+        <text name="lc_nSaveFailed" text="Oyun kaydedilemedi. Çıkmadan önce log.txt dosyasını kontrol et ve tekrar dene."/>
+        <text name="lc_nSaveWait" text="Hâlâ kaydediliyor. Kayıt bitene kadar bekle."/>
         <text name="input_LC_SAVE_GAME" text="Krediler Ve Kredi Notu menüsü: oyunu kaydet"/>
         <text name="input_LC_QUIT_MENU" text="Krediler Ve Kredi Notu menüsü: ana menüye çık"/>
         <text name="input_LC_QUIT_DESKTOP" text="Krediler Ve Kredi Notu menüsü: masaüstüne çık"/>

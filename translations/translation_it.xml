@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Desktop"/>
         <text name="lc_btnConfirm" text="Ancora per uscire"/>
         <text name="lc_nSaved" text="Partita salvata."/>
+        <text name="lc_btnSaving" text="Salvataggio..."/>
+        <text name="lc_nSaveFailed" text="Impossibile salvare la partita. Controlla log.txt e riprova prima di uscire."/>
+        <text name="lc_nSaveWait" text="Salvataggio in corso. Attendi che finisca."/>
         <text name="input_LC_SAVE_GAME" text="Menu Prestiti E Credito: salva partita"/>
         <text name="input_LC_QUIT_MENU" text="Menu Prestiti E Credito: esci al menu principale"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Prestiti E Credito: esci al desktop"/>

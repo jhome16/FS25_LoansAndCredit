@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Bureaublad"/>
         <text name="lc_btnConfirm" text="Nogmaals om te stoppen"/>
         <text name="lc_nSaved" text="Spel opgeslagen."/>
+        <text name="lc_btnSaving" text="Opslaan..."/>
+        <text name="lc_nSaveFailed" text="Het spel kon niet worden opgeslagen. Controleer log.txt en probeer het opnieuw voordat je stopt."/>
+        <text name="lc_nSaveWait" text="Nog bezig met opslaan. Wacht tot het opslaan klaar is."/>
         <text name="input_LC_SAVE_GAME" text="Menu Leningen En Krediet: spel opslaan"/>
         <text name="input_LC_QUIT_MENU" text="Menu Leningen En Krediet: naar hoofdmenu"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Leningen En Krediet: naar bureaublad"/>

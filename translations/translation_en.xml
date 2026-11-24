@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Desktop"/>
         <text name="lc_btnConfirm" text="Again to quit"/>
         <text name="lc_nSaved" text="Game saved."/>
+        <text name="lc_btnSaving" text="Saving..."/>
+        <text name="lc_nSaveFailed" text="The game could not be saved. Check log.txt and try again before quitting."/>
+        <text name="lc_nSaveWait" text="Still saving. Wait until the save has finished."/>
         <text name="input_LC_SAVE_GAME" text="Loans And Credit menu: save game"/>
         <text name="input_LC_QUIT_MENU" text="Loans And Credit menu: quit to main menu"/>
         <text name="input_LC_QUIT_DESKTOP" text="Loans And Credit menu: quit to desktop"/>

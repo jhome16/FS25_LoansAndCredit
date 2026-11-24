@@ -36,6 +36,9 @@
         <text name="lc_btnQuitDesktop" text="Bureau"/>
         <text name="lc_btnConfirm" text="Encore pour quitter"/>
         <text name="lc_nSaved" text="Partie sauvegardée."/>
+        <text name="lc_btnSaving" text="Sauvegarde..."/>
+        <text name="lc_nSaveFailed" text="La partie n'a pas pu être sauvegardée. Vérifie log.txt et réessaie avant de quitter."/>
+        <text name="lc_nSaveWait" text="Sauvegarde en cours. Attends la fin de la sauvegarde."/>
         <text name="input_LC_SAVE_GAME" text="Menu Prêts Et Crédit : sauvegarder la partie"/>
         <text name="input_LC_QUIT_MENU" text="Menu Prêts Et Crédit : quitter vers le menu principal"/>
         <text name="input_LC_QUIT_DESKTOP" text="Menu Prêts Et Crédit : quitter vers le bureau"/>
