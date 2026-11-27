@@ -1,10 +1,10 @@
 Replaces the flat base-game loan with real loans and a credit score.
 
 Loan types:
+- Term loan: unsecured, highest rate, limit set by your credit score.
+- Equipment loan: secured by a vehicle you own, lower rate.
+- Mortgage: secured by farmland you own, lowest rate and longest terms.
 
-Term loan: unsecured, highest rate, limit set by your credit score.
-Equipment loan: secured by a vehicle you own, lower rate.
-Mortgage: secured by farmland you own, lowest rate and longest terms.
 An existing base-game loan in your savegame is moved into the mod as a term loan, and a popup lets you choose how long to repay it.
 
 Payments are collected automatically every month. Your credit score (300-850) sets your interest rate and rises with on-time payments. Missed payments add late fees and lower your score; too many in a row and the loan defaults, the bank can seize the collateral, and you can't borrow for a while.
